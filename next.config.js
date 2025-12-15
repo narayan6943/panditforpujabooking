@@ -4,7 +4,7 @@ const path = require('path')
 const nextConfig = {
   // Disable React Strict Mode to stabilize Fast Refresh
   reactStrictMode: false,
-  output: 'export',
+  output: process.env.NODE_ENV === 'development' ? undefined : 'export',
 
   // Fix path aliases for both server and client
   webpack: (config, { dev, isServer }) => {
