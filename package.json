@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "PanditForPujaBooking.com - Online pandit booking platform for Pune",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "dev:standard": "next dev",
     "dev:poll": "WATCHPACK_POLLING=true next dev",
     "build": "next build",
