@@ -1,0 +1,32 @@
+# Files to Remove - Pre-Deployment Cleanup
+
+## Python Scripts (Development Tools - No Longer Needed)
+These scripts were used to automate updates during development:
+
+1. `add_consulting_cta.py` - Added consulting CTA to pages (task complete)
+2. `analyze_puja_pages.py` - Analyzed page structures (task complete)
+3. `check_deployment_ready.py` - Quality check script (task complete)
+4. `fix_sections_array.py` - Fixed missing sections arrays (task complete)
+5. `update_puja_pages.py` - Updated Jump to Section (task complete)
+
+**Action**: SAFE TO DELETE - All automation tasks completed
+
+## Demo Template Files (Not Used in Production)
+These were template files for development:
+
+1. `pages/puja-services/demo-template-1.tsx`
+2. `pages/puja-services/demo-template-2.tsx`
+3. `pages/puja-services/demo-template-3.tsx`
+
+**Action**: SAFE TO DELETE - Demo files not needed
+
+## Log Files
+1. `build.log` - Build output log
+
+**Action**: SAFE TO DELETE - Temporary log file
+
+---
+
+## Total Files to Remove: 9
+
+All files are safe to delete as they were temporary development tools and are not required for production deployment.

@@ -36,6 +36,17 @@ export default function ShaniShantiPlanetaryPage() {
         },
     }
 
+    
+    // 3. Sections for Jump to Navigation
+    const sections = [
+        { id: 'intro', title: 'Introduction' },
+        { id: 'vidhi', title: 'Puja Vidhi' },
+        { id: 'samagri', title: 'Samagri List' },
+        { id: 'benefits', title: 'Benefits' },
+        { id: 'faqs', title: 'FAQs' }
+    ]
+
+
     return (
         <>
             <Head>
@@ -434,32 +445,45 @@ export default function ShaniShantiPlanetaryPage() {
 
                         {/* Sidebar */}
                         <div className="space-y-8">
-                            {/* Booking Card */}
+                                                            {/* Table of Contents Widget */}
+                                <div className="hidden lg:block bg-white rounded-xl shadow-md p-6 border border-gray-100">
+                                    <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Jump to Section</h4>
+                                    <ul className="space-y-2 text-sm">
+                                        {sections.map(sec => (
+                                            <li key={sec.id}>
+                                                <a href={`#${sec.id}`} className="text-gray-600 hover:text-saffron-600 hover:translate-x-1 block transition-all">
+                                                    {sec.title}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                
+                                
+                                {/* Book a Free Consulting CTA */}
+                                <div className="mt-6 pt-6 border-t border-gray-200">
+                                    <div className="bg-gradient-to-br from-gold-50 to-saffron-50 rounded-lg p-4 border border-gold-200">
+                                        <h5 className="font-bold text-maroon-900 text-sm mb-2 text-center">Book a Free Consulting</h5>
+                                        <p className="text-xs text-gray-600 mb-3 text-center">Get expert guidance from our Vedic Pandits</p>
+                                        <a href="tel:+918446272142" className="block w-full">
+                                            <Button variant="primary" className="w-full text-sm py-2 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-600 hover:to-gold-500">
+                                                Call Now
+                                            </Button>
+                                        </a>
+                                        <a href="https://wa.me/918446272142?text=I%20want%20a%20free%20consulting" target="_blank" rel="noopener noreferrer" className="block w-full mt-2">
+                                            <button className="w-full text-sm py-2 px-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors">
+                                                WhatsApp Us
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+{/* Booking Card */}
                             <div id="booking" className="bg-white rounded-xl shadow-xl border-t-4 border-saffron-500 p-6 sticky top-24">
                                 <h3 className="text-xl font-bold text-center text-maroon-900 mb-2">Book Shani Puja</h3>
                                 <p className="text-center text-gray-500 text-sm mb-6">General Shanti & Remedy</p>
 
-                                <form className="space-y-4">
-                                    <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                                        <input type="text" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-saffron-500 focus:border-transparent" placeholder="Your Name" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
-                                        <input type="tel" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-saffron-500 focus:border-transparent" placeholder="+91 98765 43210" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">Location</label>
-                                        <input type="text" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-saffron-500 focus:border-transparent" placeholder="e.g. Aundh" />
-                                    </div>
-
-                                    <Button variant="primary" className="w-full text-lg py-3 mt-2">
-                                        Request Callback
-                                    </Button>
-                                    <p className="text-xs text-center text-gray-500 mt-2">
-                                        Remove Obstacles.
-                                    </p>
-                                </form>
+                                
                             </div>
 
                             {/* Testimonial Card */}

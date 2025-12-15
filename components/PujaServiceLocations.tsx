@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 
 const LOCATIONS = [
     "Hinjewadi", "Wagholi", "Kharadi", "Wakad", "Baner", "Hadapsar", "Talegaon Dabhade", "Pimple Saudagar", "Kothrud", "Undri",
@@ -52,20 +53,52 @@ interface PujaServiceLocationsProps {
 }
 
 export const PujaServiceLocations: React.FC<PujaServiceLocationsProps> = ({ pujaName }) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
     return (
         <section className="bg-white py-12 border-t border-gray-100">
             <div className="container-custom">
-                <h2 className="text-2xl font-serif font-bold text-maroon-900 mb-8 text-center">
-                    Pandit for Puja in Pune – Areas We Serve
-                </h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-2 text-sm text-gray-600">
-                    {LOCATIONS.map((loc, i) => (
-                        <div key={i} className="flex items-center">
-                            <span className="w-1.5 h-1.5 bg-gold-400 rounded-full mr-2"></span>
-                            <span>Pandit for {pujaName} in {loc}</span>
-                        </div>
-                    ))}
+                {/* Clickable Heading with Icon */}
+                <button
+                    onClick={() => setIsExpanded(!isExpanded)}
+                    className="w-full group flex items-center justify-center gap-3 mb-8 cursor-pointer hover:opacity-80 transition-opacity duration-200"
+                    aria-expanded={isExpanded}
+                    aria-label={isExpanded ? 'Hide locations' : 'Show locations'}
+                >
+                    <h2 className="text-2xl font-serif font-bold text-maroon-900 text-center">
+                        Pandit for Puja in Pune – Areas We Serve
+                    </h2>
+
+                    {/* Animated Chevron Icon */}
+                    <svg
+                        className={`w-6 h-6 text-gold-500 transition-transform duration-300 flex-shrink-0 ${isExpanded ? 'rotate-180' : 'rotate-0'}`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+
+                {/* Locations Grid with Smooth Animation */}
+                <div
+                    className="overflow-hidden transition-all duration-500 ease-in-out"
+                    style={{
+                        maxHeight: isExpanded ? '10000px' : '0px',
+                        opacity: isExpanded ? 1 : 0
+                    }}
+                >
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-2 text-sm text-gray-600 pb-4">
+                        {LOCATIONS.map((loc, i) => (
+                            <div key={i} className="flex items-center">
+                                <span className="w-1.5 h-1.5 bg-gold-400 rounded-full mr-2 flex-shrink-0"></span>
+                                <span>Pandit for {pujaName} in {loc}</span>
+                            </div>
+                        ))}
+                    </div>
                 </div>
+
                 <p className="text-center text-xs text-gray-400 mt-8">
                     *Book experienced Vedic Pandits for {pujaName} in all localities of Pune and PCMC.
                 </p>

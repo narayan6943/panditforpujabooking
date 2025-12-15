@@ -347,7 +347,26 @@ export default function ChandiPujaPage() {
                                             </li>
                                         ))}
                                     </ul>
+                                
+                                
+                                {/* Book a Free Consulting CTA */}
+                                <div className="mt-6 pt-6 border-t border-gray-200">
+                                    <div className="bg-gradient-to-br from-gold-50 to-saffron-50 rounded-lg p-4 border border-gold-200">
+                                        <h5 className="font-bold text-maroon-900 text-sm mb-2 text-center">Book a Free Consulting</h5>
+                                        <p className="text-xs text-gray-600 mb-3 text-center">Get expert guidance from our Vedic Pandits</p>
+                                        <a href="tel:+918446272142" className="block w-full">
+                                            <Button variant="primary" className="w-full text-sm py-2 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-600 hover:to-gold-500">
+                                                Call Now
+                                            </Button>
+                                        </a>
+                                        <a href="https://wa.me/918446272142?text=I%20want%20a%20free%20consulting" target="_blank" rel="noopener noreferrer" className="block w-full mt-2">
+                                            <button className="w-full text-sm py-2 px-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors">
+                                                WhatsApp Us
+                                            </button>
+                                        </a>
+                                    </div>
                                 </div>
+                            </div>
 
                                 {/* Contact Widget */}
                                 <div id="booking" className="bg-maroon-900 rounded-xl shadow-md p-6 text-center text-white relative overflow-hidden">
