@@ -5,29 +5,40 @@ import { useRouter } from 'next/router'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { Button } from '@/components/Button'
+import { GetStaticPaths, GetStaticProps } from 'next'
 
-import { getAstrologyData } from '@/data/astrology-services'
+import { getAstrologyData, allAstrologyServices } from '@/data/astrology-services'
 
-export default function AstrologyServicePage() {
-  const router = useRouter()
-  const serviceName = router.query['service-name'] as string | undefined
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = allAstrologyServices.map((service) => ({
+    params: { 'service-name': service },
+  }))
 
-  const service = serviceName ? getAstrologyData(serviceName) : null
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const serviceName = params?.['service-name'] as string
+  const service = getAstrologyData(serviceName)
 
   if (!service) {
-    return (
-      <>
-        <Header />
-        <div className="container-custom section-padding text-center">
-          <h1 className="text-3xl font-bold mb-4">Astrology Service Not Found</h1>
-          <Link href="/astrology">
-            <Button variant="primary">Browse All Services</Button>
-          </Link>
-        </div>
-        <Footer />
-      </>
-    )
+    return {
+      notFound: true,
+    }
   }
+
+  return {
+    props: {
+      service,
+    },
+  }
+}
+
+export default function AstrologyServicePage({ service }: { service: any }) {
+  // We removed the client-side router hook and checks because we now have data via props
 
   const schema = {
     '@context': 'https://schema.org',
@@ -168,4 +179,3 @@ export default function AstrologyServicePage() {
     </>
   )
 }
-

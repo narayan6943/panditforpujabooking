@@ -1,8 +1,10 @@
+# *
 User-agent: *
 Allow: /
-Disallow: /dashboard/
-Disallow: /api/
-Disallow: /_next/
 
+# Host
+Host: https://panditforpujabooking.com
+
+# Sitemaps
 Sitemap: https://panditforpujabooking.com/sitemap.xml
-
+Sitemap: https://panditforpujabooking.com/server-sitemap.xml

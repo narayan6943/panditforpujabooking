@@ -5,8 +5,12 @@ import { useRouter } from 'next/router'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { Button } from '@/components/Button'
+import { GetStaticPaths, GetStaticProps } from 'next'
 
 import { getPujaData, allPujaServices } from '@/data/puja-services'
+
+// Filter pujas to only include those that have detailed data in this file OR exist in allPujaServices
+// This prevents 404s during build time if data is missing
 
 // Puja data mapping (from masterplan) - Detailed data for priority pujas
 const pujaData: Record<string, {
@@ -420,30 +424,50 @@ const pujaData: Record<string, {
   },
 }
 
-export default function PujaServicePage() {
-  const router = useRouter()
-  const pujaName = router.query['puja-name'] as string | undefined
+export const getStaticPaths: GetStaticPaths = async () => {
+  const fs = require('fs')
+  const path = require('path')
 
-  // Get puja data - check detailed data first, then use template generator
-  let puja = null
-  if (pujaName && typeof pujaName === 'string') {
-    puja = pujaData[pujaName] || getPujaData(pujaName)
+  // Get all existing files in pages/puja-services
+  const pagesDirectory = path.join(process.cwd(), 'pages/puja-services')
+  const filenames = fs.readdirSync(pagesDirectory)
+
+  // Create a set of existing pages (removing .tsx extension)
+  const existingPages = new Set(filenames.map((file: string) => file.replace(/\.tsx$/, '')))
+
+  // Filter out pujas that already have a static page
+  const paths = allPujaServices
+    .filter(puja => !existingPages.has(puja))
+    .map((puja) => ({
+      params: { 'puja-name': puja },
+    }))
+
+  return {
+    paths,
+    fallback: false, // Return 404 for pages not in getStaticPaths
   }
+}
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const pujaName = params?.['puja-name'] as string
+
+  // Try to find the puja data in our specific mapping first, then fall back to the generic helper
+  const puja = pujaData[pujaName] || getPujaData(pujaName)
 
   if (!puja) {
-    return (
-      <>
-        <Header />
-        <div className="container-custom section-padding text-center">
-          <h1 className="text-3xl font-bold mb-4">Puja Service Not Found</h1>
-          <Link href="/puja-services">
-            <Button variant="primary">Browse All Services</Button>
-          </Link>
-        </div>
-        <Footer />
-      </>
-    )
+    return {
+      notFound: true,
+    }
   }
+
+  return {
+    props: {
+      puja,
+    },
+  }
+}
+
+export default function PujaServicePage({ puja }: { puja: any }) {
 
   // JSON-LD Schema for Service
   const serviceSchema = {
@@ -524,7 +548,7 @@ export default function PujaServicePage() {
                   Ritual Steps
                 </h2>
                 <ul className="space-y-3">
-                  {puja.ritualSteps.map((step, index) => (
+                  {puja.ritualSteps.map((step: string, index: number) => (
                     <li key={index} className="flex items-start">
                       <span className="flex-shrink-0 w-6 h-6 bg-saffron-100 text-saffron-600 rounded-full flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
                         {index + 1}
@@ -541,7 +565,7 @@ export default function PujaServicePage() {
                   Benefits
                 </h2>
                 <ul className="space-y-3">
-                  {puja.benefits.map((benefit, index) => (
+                  {puja.benefits.map((benefit: string, index: number) => (
                     <li key={index} className="flex items-start">
                       <span className="text-saffron-600 mr-3 mt-1">✓</span>
                       <span className="text-gray-700">{benefit}</span>
@@ -581,7 +605,7 @@ export default function PujaServicePage() {
                   Frequently Asked Questions
                 </h2>
                 <div className="space-y-4">
-                  {puja.faqs.map((faq, index) => (
+                  {puja.faqs.map((faq: any, index: number) => (
                     <div key={index} className="bg-gray-50 rounded-lg p-4">
                       <h3 className="font-semibold text-gray-900 mb-2">
                         {faq.question}
@@ -599,7 +623,7 @@ export default function PujaServicePage() {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
                   {allPujaServices
-                    .filter((key) => key !== pujaName)
+                    .filter((key) => key !== puja.slug)
                     .slice(0, 6)
                     .map((key) => {
                       const relatedPuja = pujaData[key] || getPujaData(key)
@@ -659,4 +683,3 @@ export default function PujaServicePage() {
     </>
   )
 }
-
