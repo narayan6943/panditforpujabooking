@@ -1,3 +1,4 @@
 {
-    "window.confirmSaveUntitledWorkspace": false
+    "window.confirmSaveUntitledWorkspace": false,
+    "css.lint.unknownAtRules": "ignore"
 }
