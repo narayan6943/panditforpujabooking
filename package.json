@@ -10,7 +10,7 @@
     "export": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap && node -e \"require('fs').copyFileSync('.htaccess', 'out/.htaccess')\""
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",

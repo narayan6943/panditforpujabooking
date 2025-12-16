@@ -11,159 +11,159 @@ import { allPujaServices, getPujaData } from '@/data/puja-services'
 const categories: Record<string, string[]> = {
   'All': allPujaServices,
   'Vrat Udyapan': [
-    'satyanarayan-vrat-udyapan',
-    'santoshi-mata-vrat-udyapan',
-    'somvar-vrat-udyapan',
-    'mangala-gauri-vrat-udyapan',
-    'navratri-durga-vrat-udyapan',
-    'karwa-chauth-vrat-udyapan',
-    'hartalika-teej-vrat-udyapan',
-    'vat-savitri-vrat-udyapan',
-    'ekadashi-vrat-udyapan',
-    'pradosh-vrat-udyapan',
-    'chhath-puja-vrat-udyapan',
-    'sawan-shivratri-vrat-udyapan',
-    'shravan-somvar-vrat-udyapan',
-    'shukravar-lakshmi-vrat-udyapan',
-    'mangalmurti-vrat-udyapan',
-    'skanda-sashti-vrat-udyapan',
-    'ahoi-ashtami-vrat-udyapan',
-    'janmashtami-vrat-udyapan',
-    'radha-ashtami-vrat-udyapan',
-    'hanuman-vrat-udyapan',
+    'satyanarayan-vrat-udyapan-in-pune',
+    'santoshi-mata-vrat-udyapan-in-pune',
+    'somvar-vrat-udyapan-in-pune',
+    'mangala-gauri-vrat-udyapan-in-pune',
+    'navratri-durga-vrat-udyapan-in-pune',
+    'karwa-chauth-vrat-udyapan-in-pune',
+    'hartalika-teej-vrat-udyapan-in-pune',
+    'vat-savitri-vrat-udyapan-in-pune',
+    'ekadashi-vrat-udyapan-in-pune',
+    'pradosh-vrat-udyapan-in-pune',
+    'chhath-puja-vrat-udyapan-in-pune',
+    'sawan-shivratri-vrat-udyapan-in-pune',
+    'shravan-somvar-vrat-udyapan-in-pune',
+    'shukravar-lakshmi-vrat-udyapan-in-pune',
+    'mangalmurti-vrat-udyapan-in-pune',
+    'skanda-sashti-vrat-udyapan-in-pune',
+    'ahoi-ashtami-vrat-udyapan-in-pune',
+    'janmashtami-vrat-udyapan-in-pune',
+    'radha-ashtami-vrat-udyapan-in-pune',
+    'hanuman-vrat-udyapan-in-pune',
   ],
   'Shanti Puja': [
-    'vastu-shanti-puja',
-    'grah-shanti-puja',
-    'navagraha-shanti',
-    'kaal-sarp-dosh-shanti',
-    'pitru-dosh-shanti',
-    'nadi-dosh-shanti',
-    'mangal-dosh-shanti',
-    'chandra-dosh-shanti',
-    'rahu-dosh-shanti',
-    'ketu-dosh-shanti',
+    'vastu-shanti-puja-in-pune',
+    'grah-shanti-puja-in-pune',
+    'navagraha-shanti-in-pune',
+    'kaal-sarp-dosh-shanti-in-pune',
+    'pitru-dosh-shanti-in-pune',
+    'nadi-dosh-shanti-in-pune',
+    'mangal-dosh-shanti-in-pune',
+    'chandra-dosh-shanti-in-pune',
+    'rahu-dosh-shanti-in-pune',
+    'ketu-dosh-shanti-in-pune',
     'shani-shanti-puja',
-    'guru-dosh-shanti',
-    'surya-dosh-shanti',
-    'sarva-shanti-puja',
-    'marriage-delay-shanti',
-    'childbirth-delay-shanti',
-    'health-shanti-puja',
-    'family-harmony-shanti',
-    'wealth-prosperity-shanti',
-    'ancestral-peace-shanti',
+    'guru-dosh-shanti-in-pune',
+    'surya-dosh-shanti-in-pune',
+    'sarva-shanti-puja-in-pune',
+    'marriage-delay-shanti-in-pune',
+    'childbirth-delay-shanti-in-pune',
+    'health-shanti-puja-in-pune',
+    'family-harmony-shanti-in-pune',
+    'wealth-prosperity-shanti-in-pune',
+    'ancestral-peace-shanti-in-pune',
   ],
   'Havan': [
-    'grah-shanti-havan',
-    'navagraha-havan',
-    'lakshmi-havan',
-    'maha-mrityunjaya-havan',
-    'durga-havan',
-    'ganesh-havan',
-    'gayatri-havan',
-    'vishnu-havan',
-    'shiva-havan',
-    'saraswati-havan',
-    'chandi-havan',
-    'rudra-havan',
-    'vastu-havan',
-    'dhanvantri-havan',
-    'kaal-bhairav-havan',
-    'hanuman-havan',
-    'santan-gopal-havan',
-    'kuber-havan',
-    'business-success-havan',
-    'planetary-shanti-havan',
+    'grah-shanti-havan-in-pune',
+    'navagraha-havan-in-pune',
+    'lakshmi-havan-in-pune',
+    'maha-mrityunjaya-havan-in-pune',
+    'durga-havan-in-pune',
+    'ganesh-havan-in-pune',
+    'gayatri-havan-in-pune',
+    'vishnu-havan-in-pune',
+    'shiva-havan-in-pune',
+    'saraswati-havan-in-pune',
+    'chandi-havan-in-pune',
+    'rudra-havan-in-pune',
+    'vastu-havan-in-pune',
+    'dhanvantri-havan-in-pune',
+    'kaal-bhairav-havan-in-pune',
+    'hanuman-havan-in-pune',
+    'santan-gopal-havan-in-pune',
+    'kuber-havan-in-pune',
+    'business-success-havan-in-pune',
+    'planetary-shanti-havan-in-pune',
   ],
   'Paath Jaap': [
-    'ramcharitmanas-paath',
-    'vishnu-sahasranama-paath',
-    'shiva-purana-paath',
-    'sundarkand-paath',
-    'hanuman-chalisa-paath',
-    'bhagwat-katha',
-    'durga-saptashati-paath',
-    'ganesh-atharvashirsha-paath',
-    'gayatri-mantra-jaap',
-    'maha-mrityunjaya-jaap',
-    'shani-mantra-jaap',
-    'navagraha-mantra-jaap',
-    'lakshmi-ashtottara-paath',
-    'kanakadhara-stotra-paath',
-    'lalita-sahasranama-paath',
-    'saraswati-stotra-paath',
-    'guru-charitra-paath',
-    'sai-satcharitra-paath',
-    'rudri-paath',
-    'vishnu-puran-paath',
-    'sankat-mochan-hanuman-ashtak',
-    'aditya-hridaya-stotra',
-    'bajrang-baan-paath',
-    'gopal-sahasranama-paath',
+    'ramcharitmanas-paath-in-pune',
+    'vishnu-sahasranama-paath-in-pune',
+    'shiva-purana-paath-in-pune',
+    'sundarkand-paath-in-pune',
+    'hanuman-chalisa-paath-in-pune',
+    'bhagwat-katha-in-pune',
+    'durga-saptashati-paath-in-pune',
+    'ganesh-atharvashirsha-paath-in-pune',
+    'gayatri-mantra-jaap-in-pune',
+    'maha-mrityunjaya-jaap-in-pune',
+    'shani-mantra-jaap-in-pune',
+    'navagraha-mantra-jaap-in-pune',
+    'lakshmi-ashtottara-paath-in-pune',
+    'kanakadhara-stotra-paath-in-pune',
+    'lalita-sahasranama-paath-in-pune',
+    'saraswati-stotra-paath-in-pune',
+    'guru-charitra-paath-in-pune',
+    'sai-satcharitra-paath-in-pune',
+    'rudri-paath-in-pune',
+    'vishnu-puran-paath-in-pune',
+    'sankat-mochan-hanuman-ashtak-in-pune',
+    'aditya-hridaya-stotra-in-pune',
+    'bajrang-baan-paath-in-pune',
+    'gopal-sahasranama-paath-in-pune',
   ],
   'Home Puja': [
-    'griha-pravesh-puja',
-    'satyanarayan-puja',
-    'vastu-puja',
-    'bhoomi-pujan',
-    'office-opening-puja',
-    'vehicle-puja',
-    'kitchen-opening-puja',
-    'nitya-home-puja',
-    'griha-shanti-puja',
-    'dosh-nivaran-puja',
-    'lakshmi-kubera-puja',
-    'child-health-puja',
-    'negative-energy-removal-puja',
-    'nazar-dosh-puja',
-    'family-harmony-shanti',
-    'new-business-puja',
-    'sai-satya-vrat-puja',
-    'navdurga-home-puja',
-    'ganesh-sthapana-puja',
-    'namakaran-puja',
+    'griha-pravesh-puja-in-pune',
+    'satyanarayan-puja-in-pune',
+    'vastu-puja-in-pune',
+    'bhoomi-pujan-in-pune',
+    'office-opening-puja-in-pune',
+    'vehicle-puja-in-pune',
+    'kitchen-opening-puja-in-pune',
+    'nitya-home-puja-in-pune',
+    'griha-shanti-puja-in-pune',
+    'dosh-nivaran-puja-in-pune',
+    'lakshmi-kubera-puja-in-pune',
+    'child-health-puja-in-pune',
+    'negative-energy-removal-puja-in-pune',
+    'nazar-dosh-puja-in-pune',
+    'family-harmony-shanti-in-pune',
+    'new-business-puja-in-pune',
+    'sai-satya-vrat-puja-in-pune',
+    'navdurga-home-puja-in-pune',
+    'ganesh-sthapana-puja-in-pune',
+    'namakaran-puja-in-pune',
   ],
   'Goddess Puja': [
-    'baglamukhi-puja',
-    'kali-puja',
-    'chandi-homa',
-    'pratyangira-devi-puja',
-    'kamakhya-devi-puja',
-    'vaibhav-lakshmi-vrat',
-    'varalakshmi-vrat',
-    'mahalakshmi-homa',
-    'gajalakshmi-puja',
-    'aishwarya-lakshmi-puja',
-    'mangala-gauri-puja',
-    'katyayani-puja',
-    'uma-maheshwari-puja',
-    'swayamvara-parvati-puja',
-    'santoshi-mata-vrat',
-    'saraswati-homa',
-    'gayatri-homa',
-    'sheetala-mata-puja',
-    'annapurna-puja',
-    'rajarajeshwari-puja',
+    'baglamukhi-puja-in-pune',
+    'kali-puja-in-pune',
+    'chandi-homa-in-pune',
+    'pratyangira-devi-puja-in-pune',
+    'kamakhya-devi-puja-in-pune',
+    'vaibhav-lakshmi-vrat-in-pune',
+    'varalakshmi-vrat-in-pune',
+    'mahalakshmi-homa-in-pune',
+    'gajalakshmi-puja-in-pune',
+    'aishwarya-lakshmi-puja-in-pune',
+    'mangala-gauri-puja-in-pune',
+    'katyayani-puja-in-pune',
+    'uma-maheshwari-puja-in-pune',
+    'swayamvara-parvati-puja-in-pune',
+    'santoshi-mata-vrat-in-pune',
+    'saraswati-homa-in-pune',
+    'gayatri-homa-in-pune',
+    'sheetala-mata-puja-in-pune',
+    'annapurna-puja-in-pune',
+    'rajarajeshwari-puja-in-pune',
   ],
   'Festival Pujas': [
-    'ganesh-chaturthi-puja',
-    'diwali-lakshmi-puja',
-    'gudi-padwa-puja',
-    'dussehra-puja',
-    'tulsi-vivah-puja',
-    'makar-sankranti-puja',
-    'holi-puja',
-    'rishi-panchami-puja',
-    'narak-chaturdashi-puja',
-    'bhai-dooj-puja',
+    'ganesh-chaturthi-puja-in-pune',
+    'diwali-lakshmi-puja-in-pune',
+    'gudi-padwa-puja-in-pune',
+    'dussehra-puja-in-pune',
+    'tulsi-vivah-puja-in-pune',
+    'makar-sankranti-puja-in-pune',
+    'holi-puja-in-pune',
+    'rishi-panchami-puja-in-pune',
+    'narak-chaturdashi-puja-in-pune',
+    'bhai-dooj-puja-in-pune',
   ],
   'God Puja': [
-    'ganesh-puja',
+    'ganesh-puja-in-pune',
     'shiva-puja',
-    'rudrabhishek-puja',
-    'vishnu-puja',
-    'hanuman-puja',
+    'rudrabhishek-puja-in-pune',
+    'vishnu-puja-in-pune',
+    'hanuman-puja-in-pune',
     'ram-puja',
     'krishna-puja',
     'balaji-puja',
@@ -181,36 +181,36 @@ const categories: Record<string, string[]> = {
     'vishwakarma-puja',
   ],
   'Bhajan & Chowki': [
-    'mata-ki-chowki',
-    'mata-ka-jagran',
-    'sai-bhajan-sandhya',
-    'krishna-bhajan-sandhya',
-    'ram-bhajan-sandhya',
-    'shiv-bhajan-sandhya',
-    'hanuman-bhajan-sandhya',
-    'bhavya-bhajan-sandhya',
-    'festival-special-chowki',
-    'durga-jagran',
-    'navratri-kirtan',
-    'satyanarayan-katha',
-    'bhagwat-katha-chowki',
-    'sundarkand-path-bhajan',
-    'sai-sandhya-kirtan',
-    'mahila-satsang',
-    'community-kirtan',
-    'vaishnav-bhajan-sandhya',
-    'corporate-bhajan-event',
-    'family-bhajan-evening',
+    'mata-ki-chowki-in-pune',
+    'mata-ka-jagran-in-pune',
+    'sai-bhajan-sandhya-in-pune',
+    'krishna-bhajan-sandhya-in-pune',
+    'ram-bhajan-sandhya-in-pune',
+    'shiv-bhajan-sandhya-in-pune',
+    'hanuman-bhajan-sandhya-in-pune',
+    'bhavya-bhajan-sandhya-in-pune',
+    'festival-special-chowki-in-pune',
+    'durga-jagran-in-pune',
+    'navratri-kirtan-in-pune',
+    'satyanarayan-katha-in-pune',
+    'bhagwat-katha-chowki-in-pune',
+    'sundarkand-path-bhajan-in-pune',
+    'sai-sandhya-kirtan-in-pune',
+    'mahila-satsang-in-pune',
+    'community-kirtan-in-pune',
+    'vaishnav-bhajan-sandhya-in-pune',
+    'corporate-bhajan-event-in-pune',
+    'family-bhajan-evening-in-pune',
   ],
   'Marriage & Family': [
-    'engagement-puja-sagai',
+    'engagement-puja-sagai-in-pune',
     'roka-ceremony-puja',
-    'vivah-puja',
+    'vivah-puja-in-pune',
     'lagna-puja',
     'griha-pravesh-marriage',
-    'naamkaran-sanskar',
-    'annaprashan-first-rice',
-    'mundan-sanskar',
+    'naamkaran-sanskar-in-pune',
+    'annaprashan-first-rice-in-pune',
+    'mundan-sanskar-in-pune',
     'vidyarambh-puja',
     'marriage-anniversary-puja',
     'pregnancy-garbha-sanskar-puja',
@@ -225,14 +225,14 @@ const categories: Record<string, string[]> = {
     'kanyadaan-puja',
   ],
   'Business & Career': [
-    'lakshmi-kubera-puja',
-    'business-growth-puja',
-    'office-opening-puja',
-    'shop-inauguration-puja',
+    'lakshmi-kubera-puja-in-pune',
+    'business-growth-puja-in-pune',
+    'office-opening-puja-in-pune',
+    'shop-inauguration-puja-in-pune',
     'career-growth-puja',
     'job-success-puja',
     'promotion-puja',
-    'new-project-puja',
+    'new-project-puja-in-pune',
     'dhanteras-business-puja',
     'vastu-puja-office',
     'finance-stability-puja',
@@ -247,19 +247,19 @@ const categories: Record<string, string[]> = {
     'client-attraction-puja',
   ],
   'Planetary Remedies': [
-    'mangal-dosh-shanti',
-    'shani-shanti-planetary-puja',
-    'rahu-ketu-dosh-puja',
+    'mangal-dosh-shanti-in-pune',
+    'shani-shanti-planetary-puja-in-pune',
+    'rahu-ketu-dosh-puja-in-pune',
     'surya-dosh-puja',
     'chandra-dosh-puja',
     'guru-dosh-puja',
     'budh-dosh-puja',
     'shukra-dosh-puja',
-    'navagraha-shanti',
-    'pitra-dosh-nivaran',
-    'grah-klesh-nivaran',
-    'sade-sati-shanti',
-    'kaal-sarp-dosh-shanti',
+    'navagraha-shanti-in-pune',
+    'pitra-dosh-nivaran-in-pune',
+    'grah-klesh-nivaran-in-pune',
+    'sade-sati-shanti-in-pune',
+    'kaal-sarp-dosh-shanti-in-pune',
     'kundali-grah-shanti',
     'horoscope-correction-puja',
     'grah-gochar-shanti',
@@ -290,49 +290,49 @@ export default function PujaServicesIndex() {
   // Helper: Get Slugs from "Title" like name (reverse lookup or just store slugs)
   // Actually, we'll store Slugs in suggestions but Display Titles
 
+  // Helper: Filter Pujas Logic (Unified for Suggestions & Grid)
+  const filterPujas = (query: string, services: string[]) => {
+    if (!query.trim()) return []
+
+    const lowerQuery = query.toLowerCase().trim()
+
+    // Alias Map for Phonetic Matching
+    const aliases: Record<string, string[]> = {
+      'grah': ['griha', 'grah'],
+      'graha': ['griha', 'grah'],
+      'griha': ['griha', 'grah'],
+      'mundan': ['mundan', 'munda'],
+      'satya': ['satya', 'saty'],
+      'vastu': ['vastu', 'vaastu']
+    }
+
+    // Check if query matches an alias key
+    let searchTerms = [lowerQuery]
+    Object.keys(aliases).forEach(key => {
+      if (lowerQuery.includes(key)) {
+        aliases[key].forEach(variant => searchTerms.push(lowerQuery.replace(key, variant)))
+      }
+    })
+
+    // Filter and Sort
+    return services.filter(slug => {
+      const normalized = slug.replace(/-/g, ' ').toLowerCase()
+      // Check if any alias variant is matching
+      return searchTerms.some(term => normalized.includes(term))
+    }).sort((a, b) => {
+      // Sort Alphabetically
+      return a.localeCompare(b)
+    })
+  }
+
   // Intelligent Search Logic
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value
     setSearchQuery(query)
 
     if (query.trim().length > 0) {
-      const lowerQuery = query.toLowerCase().trim()
-
-      // Alias Map for Phonetic Matching
-      const aliases: Record<string, string[]> = {
-        'grah': ['griha', 'grah'],
-        'graha': ['griha', 'grah'],
-        'griha': ['griha', 'grah'],
-        'mundan': ['mundan', 'munda'],
-        'satya': ['satya', 'saty'],
-        'vastu': ['vastu', 'vaastu']
-      }
-
-      // Check if query matches an alias key
-      let searchTerms = [lowerQuery]
-      Object.keys(aliases).forEach(key => {
-        if (lowerQuery.includes(key)) {
-          aliases[key].forEach(variant => searchTerms.push(lowerQuery.replace(key, variant)))
-        }
-      })
-
-      // Filter and Sort
-      const matches = allPujaServices.filter(slug => {
-        const normalized = slug.replace(/-/g, ' ').toLowerCase()
-        return searchTerms.some(term => normalized.includes(term))
-      }).sort((a, b) => {
-        const normA = a.replace(/-/g, ' ').toLowerCase()
-        const normB = b.replace(/-/g, ' ').toLowerCase()
-        const startsWithA = searchTerms.some(term => normA.startsWith(term))
-        const startsWithB = searchTerms.some(term => normB.startsWith(term))
-
-        // Prioritize StartsWith
-        if (startsWithA && !startsWithB) return -1
-        if (!startsWithA && startsWithB) return 1
-        return 0
-      })
-
-      setSuggestions(matches.slice(0, 50)) // Increased to 50 as requested
+      const matches = filterPujas(query, allPujaServices)
+      setSuggestions(matches.slice(0, 50))
       setShowSuggestions(true)
     } else {
       setSuggestions([])
@@ -340,27 +340,29 @@ export default function PujaServicesIndex() {
     }
   }
 
-  // Handle Suggestion Click
+  // Handle Suggestion Click - Redirect to Puja Page
   const handleSuggestionClick = (slug: string) => {
-    const name = formatPujaName(slug)
-    setSearchQuery(name) // Set visual text
-    setShowSuggestions(false)
-    // The main filter logic below will handle the actual filtering based on this text
+    // Requirement 2: Redirect to exact Puja detail page
+    window.location.href = `/puja-services/${slug}`
   }
 
 
   // Filter Logic (Main Grid) uses searchQuery
-  let displayedPujas = (categories as any)[selectedCategory] || []
+  let displayedPujas: string[] = []
 
   if (searchQuery.trim()) {
-    // Re-use smart filtering or simple include for the grid? 
-    // Simple include is safer for wide matching, but let's use the same "clean" logic
-    displayedPujas = allPujaServices.filter(slug =>
-      slug.replace(/-/g, ' ').toLowerCase().includes(searchQuery.toLowerCase().trim())
-    )
+    // USE THE SAME SMART LOGIC FOR THE GRID!
+    displayedPujas = filterPujas(searchQuery, allPujaServices)
+  } else {
+    // Category Filtering
+    if (selectedCategory === 'All') {
+      displayedPujas = allPujaServices
+    } else {
+      displayedPujas = categories[selectedCategory] || []
+    }
   }
 
-  const featuredPujas = ['griha-pravesh-puja', 'satyanarayan-puja', 'marriage-puja', 'lakshmi-puja']
+  const featuredPujas = ['griha-pravesh-puja-in-pune', 'satyanarayan-puja-in-pune', 'marriage-puja-in-pune', 'lakshmi-puja-in-pune']
 
 
   return (
@@ -376,33 +378,24 @@ export default function PujaServicesIndex() {
       <Header />
 
       <main className="bg-white">
-        {/* MODERN HERO - SPLIT WITH IMAGE */}
-        <section className="relative min-h-[50vh] flex items-center">
-          {/* Background Container - Handles Overflow Clipping for Pattern */}
-          <div className="absolute inset-0 bg-gradient-to-br from-maroon-900 via-maroon-800 to-maroon-900 overflow-hidden">
-            <div className="absolute inset-0 bg-pattern-mandala-dark opacity-10"></div>
-          </div>
-
-          <div className="container-custom relative z-10 py-12">
-            <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl lg:text-5xl font-serif font-bold mb-6 text-white leading-tight">
-                Find Your <span className="text-gold-400">Perfect Puja</span>
-              </h1>
-
+        {/* SEARCH SECTION - CLEAN */}
+        <section className="bg-white pt-8 pb-4 border-b border-gray-100 sticky top-[56px] z-40 shadow-sm">
+          <div className="container-custom">
+            <div className="max-w-xl mx-auto">
               {/* SEARCH BAR & AUTOCOMPLETE */}
-              <div className="relative max-w-xl mx-auto mb-8 z-50">
+              <div className="relative z-50">
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                     <span className="text-2xl">🔍</span>
                   </div>
                   <input
                     type="text"
-                    placeholder="Search for puja (e.g., Satyanarayan, Marriage, Shanti)..."
+                    placeholder="Search for puja..."
                     value={searchQuery}
                     onChange={handleSearchChange}
                     onFocus={() => { if (searchQuery) setShowSuggestions(true) }}
-                    onBlur={() => setTimeout(() => setShowSuggestions(false), 200)} // Delay to allow click
-                    className="w-full pl-14 pr-4 py-4 rounded-full bg-white text-maroon-900 shadow-2xl border-2 border-gold-300 focus:border-gold-500 focus:ring-4 focus:ring-gold-500/20 text-lg placeholder-gray-500 transition-all outline-none"
+                    onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+                    className="w-full pl-14 pr-4 py-3 rounded-full bg-white text-maroon-900 border-2 border-gold-300 shadow-md focus:border-maroon-600 focus:ring-4 focus:ring-maroon-100 text-lg placeholder-gray-500 transition-all outline-none"
                   />
                   {searchQuery && (
                     <button
@@ -433,10 +426,6 @@ export default function PujaServicesIndex() {
                   </div>
                 )}
               </div>
-
-              <p className="text-lg text-gold-100/80">
-                {searchQuery ? `Searching for "${searchQuery}"` : 'Browse our collection of 100+ Vedic rituals'}
-              </p>
             </div>
           </div>
         </section>

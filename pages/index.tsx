@@ -199,7 +199,7 @@ export default function Home() {
   return (
     <>
       <SEOHead
-        title="Book Pandit Online | Vedic Puja Services at Home | Certified Pandits India"
+        title="Vedic Pandit for Puja in Pune  |  Online Puja Services at Home 8446272142"
         description="Book verified Vedic Pandits for Griha Pravesh, Satyanarayan Puja, Rudrabhishek, Marriage, Kaal Sarp Dosh & 100+ rituals. Complete samagri included, transparent pricing. 10,000+ pujas performed."
         keywords="book pandit online, pandit for puja booking, puja services near me, griha pravesh pandit, satyanarayan puja, verified pandits, online pandit service, pandit in pune, hindu puja booking"
         canonicalUrl="https://panditforpujabooking.com/"

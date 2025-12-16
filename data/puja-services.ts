@@ -1,157 +1,157 @@
 // Complete list of 200+ Puja Services organized by categories
 export const allPujaServices = [
   // VRAT UDYAPAN (20)
-  'satyanarayan-vrat-udyapan',
-  'santoshi-mata-vrat-udyapan',
-  'somvar-vrat-udyapan',
-  'mangala-gauri-vrat-udyapan',
-  'navratri-durga-vrat-udyapan',
-  'karwa-chauth-vrat-udyapan',
-  'hartalika-teej-vrat-udyapan',
-  'vat-savitri-vrat-udyapan',
-  'ekadashi-vrat-udyapan',
-  'pradosh-vrat-udyapan',
-  'chhath-puja-vrat-udyapan',
-  'sawan-shivratri-vrat-udyapan',
-  'shravan-somvar-vrat-udyapan',
-  'shukravar-lakshmi-vrat-udyapan',
-  'mangalmurti-vrat-udyapan',
-  'skanda-sashti-vrat-udyapan',
-  'ahoi-ashtami-vrat-udyapan',
-  'janmashtami-vrat-udyapan',
-  'radha-ashtami-vrat-udyapan',
-  'hanuman-vrat-udyapan',
+  'satyanarayan-vrat-udyapan-in-pune',
+  'santoshi-mata-vrat-udyapan-in-pune',
+  'somvar-vrat-udyapan-in-pune',
+  'mangala-gauri-vrat-udyapan-in-pune',
+  'navratri-durga-vrat-udyapan-in-pune',
+  'karwa-chauth-vrat-udyapan-in-pune',
+  'hartalika-teej-vrat-udyapan-in-pune',
+  'vat-savitri-vrat-udyapan-in-pune',
+  'ekadashi-vrat-udyapan-in-pune',
+  'pradosh-vrat-udyapan-in-pune',
+  'chhath-puja-vrat-udyapan-in-pune',
+  'sawan-shivratri-vrat-udyapan-in-pune',
+  'shravan-somvar-vrat-udyapan-in-pune',
+  'shukravar-lakshmi-vrat-udyapan-in-pune',
+  'mangalmurti-vrat-udyapan-in-pune',
+  'skanda-sashti-vrat-udyapan-in-pune',
+  'ahoi-ashtami-vrat-udyapan-in-pune',
+  'janmashtami-vrat-udyapan-in-pune',
+  'radha-ashtami-vrat-udyapan-in-pune',
+  'hanuman-vrat-udyapan-in-pune',
 
   // SHANTI PUJA (20)
-  'vastu-shanti-puja',
-  'grah-shanti-puja',
-  'navagraha-shanti',
-  'kaal-sarp-dosh-shanti',
-  'pitru-dosh-shanti',
-  'nadi-dosh-shanti',
-  'mangal-dosh-shanti',
-  'chandra-dosh-shanti',
-  'rahu-dosh-shanti',
-  'ketu-dosh-shanti',
+  'vastu-shanti-puja-in-pune',
+  'grah-shanti-puja-in-pune',
+  'navagraha-shanti-in-pune',
+  'kaal-sarp-dosh-shanti-in-pune',
+  'pitru-dosh-shanti-in-pune',
+  'nadi-dosh-shanti-in-pune',
+  'mangal-dosh-shanti-in-pune',
+  'chandra-dosh-shanti-in-pune',
+  'rahu-dosh-shanti-in-pune',
+  'ketu-dosh-shanti-in-pune',
   'shani-shanti-puja',
-  'guru-dosh-shanti',
-  'surya-dosh-shanti',
-  'sarva-shanti-puja',
-  'marriage-delay-shanti',
-  'childbirth-delay-shanti',
-  'health-shanti-puja',
-  'family-harmony-shanti',
-  'wealth-prosperity-shanti',
-  'ancestral-peace-shanti',
+  'guru-dosh-shanti-in-pune',
+  'surya-dosh-shanti-in-pune',
+  'sarva-shanti-puja-in-pune',
+  'marriage-delay-shanti-in-pune',
+  'childbirth-delay-shanti-in-pune',
+  'health-shanti-puja-in-pune',
+  'family-harmony-shanti-in-pune',
+  'wealth-prosperity-shanti-in-pune',
+  'ancestral-peace-shanti-in-pune',
 
   // FESTIVAL PUJAS (Batch 1)
-  'ganesh-chaturthi-puja',
-  'diwali-lakshmi-puja',
-  'gudi-padwa-puja',
-  'dussehra-puja',
-  'tulsi-vivah-puja',
+  'ganesh-chaturthi-puja-in-pune',
+  'diwali-lakshmi-puja-in-pune',
+  'gudi-padwa-puja-in-pune',
+  'dussehra-puja-in-pune',
+  'tulsi-vivah-puja-in-pune',
 
   // FESTIVAL PUJAS (Batch 2)
-  'makar-sankranti-puja',
-  'holi-puja',
-  'rishi-panchami-puja',
-  'narak-chaturdashi-puja',
-  'bhai-dooj-puja',
+  'makar-sankranti-puja-in-pune',
+  'holi-puja-in-pune',
+  'rishi-panchami-puja-in-pune',
+  'narak-chaturdashi-puja-in-pune',
+  'bhai-dooj-puja-in-pune',
 
   // HAVAN (20)
-  'grah-shanti-havan',
-  'navagraha-havan',
-  'lakshmi-havan',
-  'maha-mrityunjaya-havan',
-  'durga-havan',
-  'ganesh-havan',
-  'gayatri-havan',
-  'vishnu-havan',
-  'shiva-havan',
-  'saraswati-havan',
-  'chandi-havan',
-  'rudra-havan',
-  'vastu-havan',
-  'dhanvantri-havan',
-  'kaal-bhairav-havan',
-  'hanuman-havan',
-  'santan-gopal-havan',
-  'kuber-havan',
-  'business-success-havan',
-  'planetary-shanti-havan',
+  'grah-shanti-havan-in-pune',
+  'navagraha-havan-in-pune',
+  'lakshmi-havan-in-pune',
+  'maha-mrityunjaya-havan-in-pune',
+  'durga-havan-in-pune',
+  'ganesh-havan-in-pune',
+  'gayatri-havan-in-pune',
+  'vishnu-havan-in-pune',
+  'shiva-havan-in-pune',
+  'saraswati-havan-in-pune',
+  'chandi-havan-in-pune',
+  'rudra-havan-in-pune',
+  'vastu-havan-in-pune',
+  'dhanvantri-havan-in-pune',
+  'kaal-bhairav-havan-in-pune',
+  'hanuman-havan-in-pune',
+  'santan-gopal-havan-in-pune',
+  'kuber-havan-in-pune',
+  'business-success-havan-in-pune',
+  'planetary-shanti-havan-in-pune',
 
   // PAATH JAAP (20)
-  'sundarkand-paath',
-  'hanuman-chalisa-paath',
-  'ramcharitmanas-paath',
-  'bhagwat-katha',
-  'durga-saptashati-paath',
-  'vishnu-sahasranama-paath',
-  'shiva-purana-paath',
-  'ganesh-atharvashirsha-paath',
-  'gayatri-mantra-jaap',
-  'maha-mrityunjaya-jaap',
-  'shani-mantra-jaap',
-  'navagraha-mantra-jaap',
-  'lakshmi-ashtottara-paath',
-  'kanakadhara-stotra-paath',
+  'sundarkand-paath-in-pune',
+  'hanuman-chalisa-paath-in-pune',
+  'ramcharitmanas-paath-in-pune',
+  'bhagwat-katha-in-pune',
+  'durga-saptashati-paath-in-pune',
+  'vishnu-sahasranama-paath-in-pune',
+  'shiva-purana-paath-in-pune',
+  'ganesh-atharvashirsha-paath-in-pune',
+  'gayatri-mantra-jaap-in-pune',
+  'maha-mrityunjaya-jaap-in-pune',
+  'shani-mantra-jaap-in-pune',
+  'navagraha-mantra-jaap-in-pune',
+  'lakshmi-ashtottara-paath-in-pune',
+  'kanakadhara-stotra-paath-in-pune',
   'devi-mahatmyam-paath',
-  'saraswati-stotra-paath',
-  'guru-charitra-paath',
-  'sai-satcharitra-paath',
-  'rudri-paath',
-  'vishnu-puran-paath',
+  'saraswati-stotra-paath-in-pune',
+  'guru-charitra-paath-in-pune',
+  'sai-satcharitra-paath-in-pune',
+  'rudri-paath-in-pune',
+  'vishnu-puran-paath-in-pune',
 
   // HOME PUJA (20)
-  'griha-pravesh-puja',
-  'vastu-puja',
-  'nitya-home-puja',
-  'satyanarayan-puja',
-  'griha-shanti-puja',
-  'dosh-nivaran-puja',
+  'griha-pravesh-puja-in-pune',
+  'vastu-puja-in-pune',
+  'nitya-home-puja-in-pune',
+  'satyanarayan-puja-in-pune',
+  'griha-shanti-puja-in-pune',
+  'dosh-nivaran-puja-in-pune',
   'bhoomi-poojan',
   'office-shop-opening-puja',
-  'vehicle-puja',
-  'kitchen-opening-puja',
-  'child-health-puja',
+  'vehicle-puja-in-pune',
+  'kitchen-opening-puja-in-pune',
+  'child-health-puja-in-pune',
   'wealth-prosperity-puja',
-  'negative-energy-removal-puja',
-  'nazar-dosh-puja',
+  'negative-energy-removal-puja-in-pune',
+  'nazar-dosh-puja-in-pune',
   'family-harmony-puja',
   'new-business-home-blessing',
   'lakshmi-puja-home',
   'sai-puja',
-  'navdurga-home-puja',
+  'navdurga-home-puja-in-pune',
   'festival-home-puja',
 
   // GODDESS PUJA (20)
-  'baglamukhi-puja',
-  'kali-puja',
-  'chandi-homa',
-  'pratyangira-devi-puja',
-  'kamakhya-devi-puja',
-  'vaibhav-lakshmi-vrat',
-  'varalakshmi-vrat',
-  'mahalakshmi-homa',
-  'gajalakshmi-puja',
-  'aishwarya-lakshmi-puja',
-  'mangala-gauri-puja',
-  'katyayani-puja',
-  'uma-maheshwari-puja',
-  'swayamvara-parvati-puja',
-  'santoshi-mata-vrat',
-  'saraswati-homa',
-  'gayatri-homa',
-  'sheetala-mata-puja',
-  'annapurna-puja',
-  'rajarajeshwari-puja',
+  'baglamukhi-puja-in-pune',
+  'kali-puja-in-pune',
+  'chandi-homa-in-pune',
+  'pratyangira-devi-puja-in-pune',
+  'kamakhya-devi-puja-in-pune',
+  'vaibhav-lakshmi-vrat-in-pune',
+  'varalakshmi-vrat-in-pune',
+  'mahalakshmi-homa-in-pune',
+  'gajalakshmi-puja-in-pune',
+  'aishwarya-lakshmi-puja-in-pune',
+  'mangala-gauri-puja-in-pune',
+  'katyayani-puja-in-pune',
+  'uma-maheshwari-puja-in-pune',
+  'swayamvara-parvati-puja-in-pune',
+  'santoshi-mata-vrat-in-pune',
+  'saraswati-homa-in-pune',
+  'gayatri-homa-in-pune',
+  'sheetala-mata-puja-in-pune',
+  'annapurna-puja-in-pune',
+  'rajarajeshwari-puja-in-pune',
 
   // GOD PUJA (20)
-  'ganesh-puja',
+  'ganesh-puja-in-pune',
   'shiva-puja',
-  'rudrabhishek-puja',
-  'vishnu-puja',
-  'hanuman-puja',
+  'rudrabhishek-puja-in-pune',
+  'vishnu-puja-in-pune',
+  'hanuman-puja-in-pune',
   'ram-puja',
   'krishna-puja',
   'balaji-puja',
@@ -169,58 +169,58 @@ export const allPujaServices = [
   'vishwakarma-puja',
 
   // FESTIVAL PUJA (20)
-  'diwali-lakshmi-puja',
+  'diwali-lakshmi-puja-in-pune',
   'dhanteras-puja',
   'govardhan-puja',
-  'bhai-dooj-puja',
-  'raksha-bandhan-puja',
-  'ganesh-chaturthi-puja',
-  'navratri-puja',
-  'durga-ashtami-puja',
-  'krishna-janmashtami-puja',
-  'ram-navami-puja',
-  'maha-shivratri-puja',
+  'bhai-dooj-puja-in-pune',
+  'raksha-bandhan-puja-in-pune',
+  'ganesh-chaturthi-puja-in-pune',
+  'navratri-puja-in-pune',
+  'durga-ashtami-puja-in-pune',
+  'krishna-janmashtami-puja-in-pune',
+  'ram-navami-puja-in-pune',
+  'maha-shivratri-puja-in-pune',
   'holi-pujan',
-  'makar-sankranti-puja',
-  'pongal-puja',
-  'chhath-puja',
-  'gudi-padwa-puja',
-  'ugadi-puja',
-  'baisakhi-puja',
-  'onam-puja',
-  'sharad-purnima-puja',
+  'makar-sankranti-puja-in-pune',
+  'pongal-puja-in-pune',
+  'chhath-puja-in-pune',
+  'gudi-padwa-puja-in-pune',
+  'ugadi-puja-in-pune',
+  'baisakhi-puja-in-pune',
+  'onam-puja-in-pune',
+  'sharad-purnima-puja-in-pune',
 
   // BHAJAN & CHOWKI (20)
-  'mata-ki-chowki',
-  'mata-ka-jagran',
-  'sai-bhajan-sandhya',
-  'krishna-bhajan-sandhya',
-  'ram-bhajan-sandhya',
-  'shiv-bhajan-sandhya',
-  'hanuman-bhajan-sandhya',
-  'bhavya-bhajan-sandhya',
-  'festival-special-chowki',
-  'durga-jagran',
-  'navratri-kirtan',
-  'satyanarayan-katha',
-  'bhagwat-katha-chowki',
-  'sundarkand-path-bhajan',
-  'sai-sandhya-kirtan',
-  'mahila-satsang',
-  'community-kirtan',
-  'vaishnav-bhajan-sandhya',
-  'corporate-bhajan-event',
-  'family-bhajan-evening',
+  'mata-ki-chowki-in-pune',
+  'mata-ka-jagran-in-pune',
+  'sai-bhajan-sandhya-in-pune',
+  'krishna-bhajan-sandhya-in-pune',
+  'ram-bhajan-sandhya-in-pune',
+  'shiv-bhajan-sandhya-in-pune',
+  'hanuman-bhajan-sandhya-in-pune',
+  'bhavya-bhajan-sandhya-in-pune',
+  'festival-special-chowki-in-pune',
+  'durga-jagran-in-pune',
+  'navratri-kirtan-in-pune',
+  'satyanarayan-katha-in-pune',
+  'bhagwat-katha-chowki-in-pune',
+  'sundarkand-path-bhajan-in-pune',
+  'sai-sandhya-kirtan-in-pune',
+  'mahila-satsang-in-pune',
+  'community-kirtan-in-pune',
+  'vaishnav-bhajan-sandhya-in-pune',
+  'corporate-bhajan-event-in-pune',
+  'family-bhajan-evening-in-pune',
 
   // MARRIAGE & FAMILY (20)
-  'engagement-puja-sagai',
+  'engagement-puja-sagai-in-pune',
   'roka-ceremony-puja',
-  'vivah-puja',
+  'vivah-puja-in-pune',
   'lagna-puja',
   'griha-pravesh-marriage',
-  'naamkaran-sanskar',
-  'annaprashan-first-rice',
-  'mundan-sanskar',
+  'naamkaran-sanskar-in-pune',
+  'annaprashan-first-rice-in-pune',
+  'mundan-sanskar-in-pune',
   'vidyarambh-puja',
   'marriage-anniversary-puja',
   'pregnancy-garbha-sanskar-puja',
@@ -235,14 +235,14 @@ export const allPujaServices = [
   'kanyadaan-puja',
 
   // BUSINESS & CAREER (20)
-  'lakshmi-kubera-puja',
-  'business-growth-puja',
-  'office-opening-puja',
-  'shop-inauguration-puja',
+  'lakshmi-kubera-puja-in-pune',
+  'business-growth-puja-in-pune',
+  'office-opening-puja-in-pune',
+  'shop-inauguration-puja-in-pune',
   'career-growth-puja',
   'job-success-puja',
   'promotion-puja',
-  'new-project-puja',
+  'new-project-puja-in-pune',
   'dhanteras-business-puja',
   'vastu-puja-office',
   'finance-stability-puja',
@@ -257,8 +257,8 @@ export const allPujaServices = [
   'client-attraction-puja',
 
   // PLANETARY REMEDIES (20)
-  'mangal-dosh-puja',
-  'shani-shanti-planetary-puja',
+  'mangal-dosh-puja-in-pune',
+  'shani-shanti-planetary-puja-in-pune',
   'rahu-dosh-puja',
   'ketu-dosh-puja',
   'surya-dosh-puja',
@@ -267,9 +267,9 @@ export const allPujaServices = [
   'budh-dosh-puja',
   'shukra-dosh-puja',
   'navagraha-shanti-puja',
-  'pitra-dosh-nivaran',
-  'grah-klesh-nivaran',
-  'sade-sati-shanti',
+  'pitra-dosh-nivaran-in-pune',
+  'grah-klesh-nivaran-in-pune',
+  'sade-sati-shanti-in-pune',
   'kaal-sarp-dosh-puja',
   'kundali-grah-shanti',
   'horoscope-correction-puja',
@@ -281,7 +281,8 @@ export const allPujaServices = [
 
 // Helper to generate default data for missing services
 function generateDefaultPuja(slug: string) {
-  const title = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+  const cleanSlug = slug.replace(/-in-pune$/, '');
+  const title = cleanSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ') + ' in Pune'
 
   // Intelligent Image Mapping
   let image = '/images/ganesh-havan-hero.png' // Default Fallback (Havan)
@@ -309,98 +310,98 @@ function generateDefaultPuja(slug: string) {
 
 export function getPujaData(slug: string) {
   const baseData: Record<string, any> = {
-    'pitru-dosh-shanti': {
-      id: 'pitru-dosh-shanti',
-      title: 'Pitru Dosh Shanti Puja',
+    'pitru-dosh-shanti-in-pune': {
+      id: 'pitru-dosh-shanti-in-pune',
+      title: 'Pitru Dosh Shanti Puja in Pune',
       description: 'Powerful Vedic remedy for Pitru Dosh (Ancestral Affliction). Includes Tripindi Shradh and Narayan Bali rituals to liberate ancestors and bring peace to the family.',
-      slug: 'pitru-dosh-shanti',
+      slug: 'pitru-dosh-shanti-in-pune',
       image: '/images/pitra-tarpan-hero.png', // Existing asset
       duration: '3-4 Hours',
       price: '₹2,500',
       location: 'Trimbakeshwar / Pune'
     },
-    'nadi-dosh-shanti': {
-      id: 'nadi-dosh-shanti',
-      title: 'Nadi Dosh Shanti Puja',
+    'nadi-dosh-shanti-in-pune': {
+      id: 'nadi-dosh-shanti-in-pune',
+      title: 'Nadi Dosh Shanti Puja in Pune',
       description: 'Essential puja for matchmaking compatibility. Resolves Nadi Dosh to ensure health, progeny, and long life for the couple.',
-      slug: 'nadi-dosh-shanti',
+      slug: 'nadi-dosh-shanti-in-pune',
       image: '/images/vivah-puja-hero.png',
       duration: '2-3 Hours',
       price: '₹4,100',
       location: 'Pune / Home'
     },
-    'chandra-dosh-shanti': {
-      id: 'chandra-dosh-shanti',
-      title: 'Chandra Dosh Shanti Puja',
+    'chandra-dosh-shanti-in-pune': {
+      id: 'chandra-dosh-shanti-in-pune',
+      title: 'Chandra Dosh Shanti Puja in Pune',
       description: 'Heals the mind and emotions. Removes depression, anxiety, and phobias caused by weak Moon, Kemdrum Dosh, or Chandra-Rahu Grahan Dosh.',
-      slug: 'chandra-dosh-shanti',
+      slug: 'chandra-dosh-shanti-in-pune',
       image: '/images/navagraha-shanti-hero.png',
       duration: '2-3 Hours',
       price: '₹3,500',
       location: 'Pune / Home'
     },
-    'rahu-dosh-shanti': {
-      id: 'rahu-dosh-shanti',
-      title: 'Rahu Dosh Shanti Puja',
+    'rahu-dosh-shanti-in-pune': {
+      id: 'rahu-dosh-shanti-in-pune',
+      title: 'Rahu Dosh Shanti Puja in Pune',
       description: 'Pacifies the shadow planet Rahu. Removes confusion, sudden failures, hidden enemies, and mental instability during Rahu Mahadasha.',
-      slug: 'rahu-dosh-shanti',
+      slug: 'rahu-dosh-shanti-in-pune',
       image: '/images/navagraha-shanti-hero.png',
       duration: '2-3 Hours',
       price: '₹3,500',
       location: 'Pune / Home'
     },
-    'ketu-dosh-shanti': {
-      id: 'ketu-dosh-shanti',
-      title: 'Ketu Dosh Shanti Puja',
+    'ketu-dosh-shanti-in-pune': {
+      id: 'ketu-dosh-shanti-in-pune',
+      title: 'Ketu Dosh Shanti Puja in Pune',
       description: 'Remedy for Ketu Mahadasha. Removes skin diseases, accidents, and detachment. Invokes Lord Ganesha\'s blessings for stability.',
-      slug: 'ketu-dosh-shanti',
+      slug: 'ketu-dosh-shanti-in-pune',
       image: '/images/ganesh-havan-hero.png',
       duration: '2-3 Hours',
       price: '₹3,500',
       location: 'Pune / Home'
     },
-    'guru-dosh-shanti': {
-      id: 'guru-dosh-shanti',
-      title: 'Guru Dosh Shanti Puja',
+    'guru-dosh-shanti-in-pune': {
+      id: 'guru-dosh-shanti-in-pune',
+      title: 'Guru Dosh Shanti Puja in Pune',
       description: 'Strengthens Jupiter (Brihaspati). Essential for removing delays in marriage, education hurdles, and Guru Chandal Dosh.',
-      slug: 'guru-dosh-shanti',
+      slug: 'guru-dosh-shanti-in-pune',
       image: '/images/satyanarayan-puja-hero.png',
       duration: '2-3 Hours',
       price: '₹3,500',
       location: 'Pune / Home'
     },
-    'surya-dosh-shanti': {
-      id: 'surya-dosh-shanti',
-      title: 'Surya Dosh Shanti Puja',
+    'surya-dosh-shanti-in-pune': {
+      id: 'surya-dosh-shanti-in-pune',
+      title: 'Surya Dosh Shanti Puja in Pune',
       description: 'Boosts confidence, health, and social status. Remedy for weak Sun, Surya Grahan Dosh, and government-related problems.',
-      slug: 'surya-dosh-shanti',
+      slug: 'surya-dosh-shanti-in-pune',
       image: '/images/surya-dev-puja-hero.png',
       duration: '2-3 Hours',
       price: '₹3,100',
       location: 'Pune / Home'
     },
-    'sarva-shanti-puja': {
-      id: 'sarva-shanti-puja',
-      title: 'Sarva Shanti Puja',
+    'sarva-shanti-puja-in-pune': {
+      id: 'sarva-shanti-puja-in-pune',
+      title: 'Sarva Shanti Puja in Pune',
       description: 'Comprehensive Universal Peace Puja. Pacifies all planets (Navagraha), Directions (Dikpal), and negative energies for total family harmony.',
-      slug: 'sarva-shanti-puja',
+      slug: 'sarva-shanti-puja-in-pune',
       image: '/images/navagraha-shanti-hero.png',
       duration: '4-5 Hours',
       price: '₹5,100',
       location: 'Pune / Home'
     },
-    'marriage-delay-shanti': {
-      id: 'marriage-delay-shanti',
-      title: 'Marriage Delay Shanti Puja',
+    'marriage-delay-shanti-in-pune': {
+      id: 'marriage-delay-shanti-in-pune',
+      title: 'Marriage Delay Shanti Puja in Pune',
       description: 'Vivah Badha Nivaran. Specialized ritual to remove astrological obstacles causing late marriage. Invokes Gauri-Shankar blessings.',
-      slug: 'marriage-delay-shanti',
+      slug: 'marriage-delay-shanti-in-pune',
       image: '/images/vivah-puja-hero.png',
       duration: '3-4 Hours',
       price: '₹4,100',
       location: 'Pune / Home'
     },
-    'griha-pravesh-puja': {
-      title: 'Griha Pravesh Puja',
+    'griha-pravesh-puja-in-pune': {
+      title: 'Griha Pravesh Puja in Pune',
       metaTitle: 'Griha Pravesh Puja in Pune | Book Expert Pandit Online',
       metaDescription: 'Book verified pandit for Griha Pravesh puja in Pune. Same-day booking. Transparent pricing. Auspicious house warming ceremony.',
       focusKeyword: 'griha pravesh puja pune',
@@ -440,8 +441,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 1 PRIORITY PUJAS - VRAT UDYAPAN
-    'satyanarayan-vrat-udyapan': {
-      title: 'Satyanarayan Vrat Udyapan',
+    'satyanarayan-vrat-udyapan-in-pune': {
+      title: 'Satyanarayan Vrat Udyapan in Pune',
       metaTitle: 'Satyanarayan Vrat Udyapan in Pune | Complete Puja Vidhi & Katha',
       metaDescription: 'Book Satyanarayan Vrat Udyapan puja in Pune. Complete vidhi, katha, samagri list, muhurat. Experienced pandits. ₹2,500 onwards. Same-day booking available.',
       focusKeyword: 'satyanarayan vrat udyapan pune',
@@ -492,8 +493,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'karwa-chauth-vrat-udyapan': {
-      title: 'Karwa Chauth Vrat Udyapan',
+    'karwa-chauth-vrat-udyapan-in-pune': {
+      title: 'Karwa Chauth Vrat Udyapan in Pune',
       metaTitle: 'Karwa Chauth Vrat Udyapan in Pune | Complete Puja Vidhi 2025',
       metaDescription: 'Book Karwa Chauth Vrat Udyapan puja in Pune. Complete vidhi for married women, muhurat timing, sargi preparation. Expert pandits. ₹1,500 onwards.',
       focusKeyword: 'karwa chauth vrat udyapan pune',
@@ -544,8 +545,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'ekadashi-vrat-udyapan': {
-      title: 'Ekadashi Vrat Udyapan',
+    'ekadashi-vrat-udyapan-in-pune': {
+      title: 'Ekadashi Vrat Udyapan in Pune',
       metaTitle: 'Ekadashi Vrat Udyapan in Pune | Monthly Vrat Completion Puja',
       metaDescription: 'Book Ekadashi Vrat Udyapan puja in Pune. Complete vidhi for breaking Ekadashi fast, Lord Vishnu worship, prasad distribution. ₹1,200 onwards.',
       focusKeyword: 'ekadashi vrat udyapan pune',
@@ -596,8 +597,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'chhath-puja-vrat-udyapan': {
-      title: 'Chhath Puja Vrat Udyapan',
+    'chhath-puja-vrat-udyapan-in-pune': {
+      title: 'Chhath Puja Vrat Udyapan in Pune',
       metaTitle: 'Chhath Puja Vrat Udyapan in Pune | 4-Day Surya Worship Completion',
       metaDescription: 'Book Chhath Puja Vrat Udyapan in Pune. Complete 4-day vidhi, Surya arghya, prasad preparation. Experienced pandits. ₹3,000 onwards.',
       focusKeyword: 'chhath puja vrat udyapan pune',
@@ -648,8 +649,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'navratri-durga-vrat-udyapan': {
-      title: 'Navratri Durga Vrat Udyapan',
+    'navratri-durga-vrat-udyapan-in-pune': {
+      title: 'Navratri Durga Vrat Udyapan in Pune',
       metaTitle: 'Navratri Durga Vrat Udyapan in Pune | 9-Day Vrat Completion Puja',
       metaDescription: 'Book Navratri Durga Vrat Udyapan puja in Pune. Complete 9-day vidhi, Kanya Pujan, Durga Saptashati path. Expert pandits. ₹5,000 onwards.',
       focusKeyword: 'navratri durga vrat udyapan pune',
@@ -703,8 +704,8 @@ export function getPujaData(slug: string) {
 
 
     // PHASE 1 PRIORITY PUJAS - SHANTI PUJA
-    'vastu-shanti-puja': {
-      title: 'Vastu Shanti Puja',
+    'vastu-shanti-puja-in-pune': {
+      title: 'Vastu Shanti Puja in Pune',
       metaTitle: 'Vastu Shanti Puja in Pune | Remove Vastu Dosha at Home & Office',
       metaDescription: 'Book Vastu Shanti Puja in Pune. Remove Vastu doshas, bring peace & prosperity. Expert pandits for home, office, factory. ₹3,500 onwards.',
       focusKeyword: 'vastu shanti puja pune',
@@ -755,8 +756,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'grah-shanti-puja': {
-      title: 'Grah Shanti Puja',
+    'grah-shanti-puja-in-pune': {
+      title: 'Grah Shanti Puja in Pune',
       metaTitle: 'Grah Shanti Puja in Pune | Home Peace & Harmony Ritual',
       metaDescription: 'Book Grah Shanti Puja in Pune. Remove negative energies, bring peace & prosperity to home. Expert pandits. ₹2,500 onwards. Same-day booking.',
       focusKeyword: 'grah shanti puja pune',
@@ -807,8 +808,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'navagraha-shanti': {
-      title: 'Navagraha Shanti Puja',
+    'navagraha-shanti-in-pune': {
+      title: 'Navagraha Shanti Puja in Pune',
       metaTitle: 'Navagraha Shanti Puja in Pune | Planetary Peace Ritual',
       metaDescription: 'Book Navagraha Shanti Puja in Pune. Balance nine planets, remove doshas, ensure prosperity. Expert astrologer pandits. ₹4,000 onwards.',
       focusKeyword: 'navagraha shanti puja pune',
@@ -859,8 +860,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'kaal-sarp-dosh-shanti': {
-      title: 'Kaal Sarp Dosh Shanti Puja',
+    'kaal-sarp-dosh-shanti-in-pune': {
+      title: 'Kaal Sarp Dosh Shanti Puja in Pune',
       metaTitle: 'Kaal Sarp Dosh Shanti Puja in Pune | Remove Serpent Dosha',
       metaDescription: 'Book Kaal Sarp Dosh Shanti Puja in Pune. Remove serpent dosha, ensure peace & prosperity. Expert pandits. ₹5,000 onwards.',
       focusKeyword: 'kaal sarp dosh shanti pune',
@@ -911,8 +912,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'mangal-dosh-shanti': {
-      title: 'Mangal Dosh Shanti Puja',
+    'mangal-dosh-shanti-in-pune': {
+      title: 'Mangal Dosh Shanti Puja in Pune',
       metaTitle: 'Mangal Dosh Shanti Puja in Pune | Marriage Dosha Nivaran',
       metaDescription: 'Book Mangal Dosh Shanti Puja in Pune. Remove Mars dosha for marriage, ensure marital bliss. Expert pandits. ₹3,500 onwards.',
       focusKeyword: 'mangal dosh shanti pune',
@@ -964,8 +965,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 1 PRIORITY PUJAS - HAVAN
-    'navagraha-havan': {
-      title: 'Navagraha Havan',
+    'navagraha-havan-in-pune': {
+      title: 'Navagraha Havan in Pune',
       metaTitle: 'Navagraha Havan in Pune | Nine Planets Fire Ritual for Peace',
       metaDescription: 'Book Navagraha Havan in Pune. Pacify nine planets, remove doshas, ensure prosperity. Expert pandits. ₹6,000 onwards. Complete Vedic ritual.',
       focusKeyword: 'navagraha havan pune',
@@ -1016,8 +1017,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'lakshmi-havan': {
-      title: 'Lakshmi Havan',
+    'lakshmi-havan-in-pune': {
+      title: 'Lakshmi Havan in Pune',
       metaTitle: 'Lakshmi Havan in Pune | Wealth & Prosperity Fire Ritual',
       metaDescription: 'Book Lakshmi Havan in Pune. Attract wealth, prosperity & abundance. Expert pandits for home/business. ₹5,000 onwards. Complete Vedic ritual.',
       focusKeyword: 'lakshmi havan pune',
@@ -1068,8 +1069,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'maha-mrityunjaya-havan': {
-      title: 'Maha Mrityunjaya Havan',
+    'maha-mrityunjaya-havan-in-pune': {
+      title: 'Maha Mrityunjaya Havan in Pune',
       metaTitle: 'Maha Mrityunjaya Havan in Pune | Health & Longevity Fire Ritual',
       metaDescription: 'Book Maha Mrityunjaya Havan in Pune. For health, healing & protection. Expert pandits. ₹7,000 onwards. Powerful Shiva fire ritual.',
       focusKeyword: 'maha mrityunjaya havan pune',
@@ -1120,8 +1121,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'durga-havan': {
-      title: 'Durga Havan',
+    'durga-havan-in-pune': {
+      title: 'Durga Havan in Pune',
       metaTitle: 'Durga Havan in Pune | Protection & Strength Fire Ritual',
       metaDescription: 'Book Durga Havan in Pune. Remove obstacles, gain protection & strength. Expert pandits. ₹5,500 onwards. Powerful Goddess fire ritual.',
       focusKeyword: 'durga havan pune',
@@ -1172,8 +1173,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'ganesh-havan': {
-      title: 'Ganesh Havan',
+    'ganesh-havan-in-pune': {
+      title: 'Ganesh Havan in Pune',
       metaTitle: 'Ganesh Havan in Pune | Obstacle Removal Fire Ritual',
       metaDescription: 'Book Ganesh Havan in Pune. Remove obstacles, ensure success in new ventures. Expert pandits. ₹3,500 onwards. Ganpati Homam.',
       focusKeyword: 'ganesh havan pune',
@@ -1224,8 +1225,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'chandi-havan': {
-      title: 'Chandi Havan',
+    'chandi-havan-in-pune': {
+      title: 'Chandi Havan in Pune',
       metaTitle: 'Chandi Havan in Pune | Powerful Chandi Path & Homam',
       metaDescription: 'Book Chandi Havan in Pune. The most powerful Havan for victory & protection. Includes Durga Saptashati Path. Expert pandits. ₹15,000 onwards.',
       focusKeyword: 'chandi havan pune',
@@ -1277,8 +1278,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 1 PRIORITY PUJAS - PAATH JAAP
-    'sundarkand-paath': {
-      title: 'Sundarkand Paath',
+    'sundarkand-paath-in-pune': {
+      title: 'Sundarkand Paath in Pune',
       metaTitle: 'Sundarkand Paath in Pune | Hanuman Path for Success & Protection',
       metaDescription: 'Book Sundarkand Paath in Pune. Remove obstacles, ensure success & protection. Expert pandits. ₹2,000 onwards. Complete Ramcharitmanas recitation.',
       focusKeyword: 'sundarkand paath pune',
@@ -1329,8 +1330,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'hanuman-chalisa-paath': {
-      title: 'Hanuman Chalisa Paath',
+    'hanuman-chalisa-paath-in-pune': {
+      title: 'Hanuman Chalisa Paath in Pune',
       metaTitle: 'Hanuman Chalisa Paath in Pune | 40 Verses Hanuman Prayer',
       metaDescription: 'Book Hanuman Chalisa Paath in Pune. Remove obstacles, gain strength & protection. Expert pandits. ₹1,000 onwards. Multiple recitations available.',
       focusKeyword: 'hanuman chalisa paath pune',
@@ -1381,8 +1382,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'bhagwat-katha': {
-      title: 'Bhagwat Katha',
+    'bhagwat-katha-in-pune': {
+      title: 'Bhagwat Katha in Pune',
       metaTitle: 'Bhagwat Katha in Pune | 7-Day Srimad Bhagwat Recitation',
       metaDescription: 'Book Bhagwat Katha in Pune. Complete 7-day Srimad Bhagwat Puran recitation. Expert pandits. ₹25,000 onwards. Spiritual enlightenment.',
       focusKeyword: 'bhagwat katha pune',
@@ -1433,8 +1434,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'durga-saptashati-paath': {
-      title: 'Durga Saptashati Paath',
+    'durga-saptashati-paath-in-pune': {
+      title: 'Durga Saptashati Paath in Pune',
       metaTitle: 'Durga Saptashati Paath in Pune | 700 Verses Goddess Recitation',
       metaDescription: 'Book Durga Saptashati Paath in Pune. Complete Devi Mahatmyam recitation. Expert pandits. ₹3,500 onwards. Powerful Goddess worship.',
       focusKeyword: 'durga saptashati paath pune',
@@ -1486,8 +1487,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 1 PRIORITY PUJAS - FESTIVAL
-    'krishna-janmashtami-puja': {
-      title: 'Krishna Janmashtami Puja',
+    'krishna-janmashtami-puja-in-pune': {
+      title: 'Krishna Janmashtami Puja in Pune',
       metaTitle: 'Krishna Janmashtami Puja in Pune | Lord Krishna Birth Celebration',
       metaDescription: 'Book Krishna Janmashtami Puja in Pune. Complete midnight celebration, jhula decoration, bhajans. Expert pandits. ₹4,000 onwards.',
       focusKeyword: 'krishna janmashtami puja pune',
@@ -1538,8 +1539,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'ganesh-chaturthi-puja': {
-      title: 'Ganesh Chaturthi Puja',
+    'ganesh-chaturthi-puja-in-pune': {
+      title: 'Ganesh Chaturthi Puja in Pune',
       metaTitle: 'Ganesh Chaturthi Puja in Pune | 10-Day Ganpati Festival Celebration',
       metaDescription: 'Book Ganesh Chaturthi Puja in Pune. Complete 10-day celebration, idol installation, daily puja, visarjan. Expert pandits. ₹15,000 onwards.',
       focusKeyword: 'ganesh chaturthi puja pune',
@@ -1591,8 +1592,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 2 PRIORITY PUJAS - MARRIAGE & FAMILY
-    'vivah-puja': {
-      title: 'Vivah Puja',
+    'vivah-puja-in-pune': {
+      title: 'Vivah Puja in Pune',
       metaTitle: 'Vivah Puja in Pune | Vedic Wedding Pandit | Marriage Ceremony',
       metaDescription: 'Book Expert Vedic Pandit for Vivah Puja (Wedding) in Pune. Authentic Marriage Rituals: Kanyadaan, Saptapadi, Mangalashtakas. ₹11,000 onwards.',
       focusKeyword: 'vivah puja pune',
@@ -1643,8 +1644,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'engagement-puja-sagai': {
-      title: 'Engagement Puja',
+    'engagement-puja-sagai-in-pune': {
+      title: 'Engagement Puja in Pune',
       metaTitle: 'Engagement Puja in Pune | Sagai & Ring Ceremony Pandit',
       metaDescription: 'Book Pandit for Engagement Ceremony (Sagai/Roka) in Pune. Authentic Vedic Ring Ceremony rituals for a blessed new beginning. ₹3,500 onwards.',
       focusKeyword: 'engagement puja pune',
@@ -1695,8 +1696,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'naamkaran-sanskar': {
-      title: 'Naamkaran Sanskar',
+    'naamkaran-sanskar-in-pune': {
+      title: 'Naamkaran Sanskar in Pune',
       metaTitle: 'Naamkaran Sanskar in Pune | Naming Ceremony Pandit',
       metaDescription: 'Book Pandit for Naamkaran Sanskar in Pune. Traditional Vedic Naming Ceremony for newborns with Havan and Astrology consultation. ₹3,500 onwards.',
       focusKeyword: 'naamkaran sanskar pune',
@@ -1743,8 +1744,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'mundan-sanskar': {
-      title: 'Mundan Sanskar',
+    'mundan-sanskar-in-pune': {
+      title: 'Mundan Sanskar in Pune',
       metaTitle: 'Mundan Sanskar in Pune | Head Tonsure Ceremony Pandit',
       metaDescription: 'Book Pandit for Mundan Sanskar (Chaul Karma) in Pune. Traditional Vedic Head Shaving Ceremony for child\'s purity & growth. ₹2,500 onwards.',
       focusKeyword: 'mundan sanskar pune',
@@ -1791,8 +1792,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'annaprashan-first-rice': {
-      title: 'Annaprashan Sanskar',
+    'annaprashan-first-rice-in-pune': {
+      title: 'Annaprashan Sanskar in Pune',
       metaTitle: 'Annaprashan Sanskar in Pune | First Rice Feeding Ceremony',
       metaDescription: 'Book Pandit for Annaprashan Sanskar in Pune. Vedic First Rice Feeding Ceremony for babies (Ushtavan). Havan & Blessings. ₹3,000 onwards.',
       focusKeyword: 'annaprashan sanskar pune',
@@ -1840,8 +1841,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 2 PRIORITY PUJAS - BUSINESS & CAREER
-    'office-opening-puja': {
-      title: 'Office Opening Puja',
+    'office-opening-puja-in-pune': {
+      title: 'Office Opening Puja in Pune',
       metaTitle: 'Office Opening Puja in Pune | New Business Inauguration Pandit',
       metaDescription: 'Book Pandit for New Office Opening Puja in Pune. Traditional Vedic Vastu & Ganesh Puja for business success and prosperity. ₹3,500 onwards.',
       focusKeyword: 'office opening puja pune',
@@ -1878,8 +1879,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'shop-inauguration-puja': {
-      title: 'Shop Inauguration Puja',
+    'shop-inauguration-puja-in-pune': {
+      title: 'Shop Inauguration Puja in Pune',
       metaTitle: 'Shop Inauguration Puja in Pune | New Shop Opening Pandit',
       metaDescription: 'Book Pandit for New Shop Inauguration Puja in Pune. Vedic Rituals for retail success, customer attraction, and profit. ₹3,100 onwards.',
       focusKeyword: 'shop inauguration puja pune',
@@ -1915,8 +1916,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'business-growth-puja': {
-      title: 'Business Growth Puja',
+    'business-growth-puja-in-pune': {
+      title: 'Business Growth Puja in Pune',
       metaTitle: 'Business Growth Puja in Pune | Success & Profit Mantra',
       metaDescription: 'Book Pandit for Business Growth Puja (Vyapar Vridhi) in Pune. Powerful Vedic remedies for increasing sales and profit. ₹3,500 onwards.',
       focusKeyword: 'business growth puja pune',
@@ -1952,8 +1953,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'lakshmi-kubera-puja': {
-      title: 'Lakshmi Kubera Puja',
+    'lakshmi-kubera-puja-in-pune': {
+      title: 'Lakshmi Kubera Puja in Pune',
       metaTitle: 'Lakshmi Kubera Puja in Pune | Wealth & Prosperity Ritual',
       metaDescription: 'Book Pandit for Lakshmi Kubera Puja in Pune. Worship of Wealth Deities for abundance, financial stability, and debt removal. ₹3,000 onwards.',
       focusKeyword: 'lakshmi kubera puja pune',
@@ -1989,8 +1990,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'new-project-puja': {
-      title: 'New Project Puja',
+    'new-project-puja-in-pune': {
+      title: 'New Project Puja in Pune',
       metaTitle: 'New Project Puja in Pune | Bhoomi Pujan & Start-up Puja',
       metaDescription: 'Book Pandit for New Project Puja in Pune. Bhoomi Pujan and Ganesh Puja for successful start of construction or new ventures. ₹3,500 onwards.',
       focusKeyword: 'new project puja pune',
@@ -2026,8 +2027,8 @@ export function getPujaData(slug: string) {
     },
 
     // PHASE 2 PRIORITY PUJAS - PLANETARY REMEDIES
-    'pitra-dosh-nivaran': {
-      title: 'Pitra Dosh Nivaran',
+    'pitra-dosh-nivaran-in-pune': {
+      title: 'Pitra Dosh Nivaran in Pune',
       metaTitle: 'Pitra Dosh Nivaran Puja in Pune | Ancestral Peace Remedy',
       metaDescription: 'Book Pandit for Pitra Dosh Nivaran Puja in Pune. Vedic Rituals (Narayan Bali/Tripindi) to satisfy ancestors and remove family obstacles. ₹2,500 onwards.',
       focusKeyword: 'pitra dosh nivaran pune',
@@ -2063,8 +2064,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'sade-sati-shanti': {
-      title: 'Sade Sati Shanti',
+    'sade-sati-shanti-in-pune': {
+      title: 'Sade Sati Shanti in Pune',
       metaTitle: 'Sade Sati Shanti Puja in Pune | Saturn Remedy Pandit',
       metaDescription: 'Book Pandit for Sade Sati Shanti Puja in Pune. Powerful Vedic remedies for Shani Mahadasha relief and protection. ₹2,100 onwards.',
       focusKeyword: 'sade sati shanti pune',
@@ -2100,8 +2101,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'grah-klesh-nivaran': {
-      title: 'Grah Klesh Nivaran',
+    'grah-klesh-nivaran-in-pune': {
+      title: 'Grah Klesh Nivaran in Pune',
       metaTitle: 'Grah Klesh Nivaran Puja in Pune | Family Peace Ritual',
       metaDescription: 'Book Pandit for Grah Klesh Nivaran Puja in Pune. Resolve husband-wife disputes and restore domestic harmony. ₹2,100 onwards.',
       focusKeyword: 'grah klesh nivaran pune',
@@ -2137,8 +2138,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'shani-shanti-planetary-puja': {
-      title: 'Shani Shanti Puja',
+    'shani-shanti-planetary-puja-in-pune': {
+      title: 'Shani Shanti Puja in Pune',
       metaTitle: 'Shani Shanti Puja in Pune | Saturn Remedy to Remove Obstacles',
       metaDescription: 'Book Pandit for Shani Shanti Puja in Pune. Vedic remedies for Shani Mahadasha, Dhaiya, and weak Saturn. Oil Abhishek and Havan. ₹2,100 onwards.',
       focusKeyword: 'shani shanti puja pune',
@@ -2174,8 +2175,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'rahu-ketu-dosh-puja': {
-      title: 'Rahu Ketu Dosh Puja',
+    'rahu-ketu-dosh-puja-in-pune': {
+      title: 'Rahu Ketu Dosh Puja in Pune',
       metaTitle: 'Rahu Ketu Dosh Puja in Pune | Shadow Planet Remedies',
       metaDescription: 'Book Pandit for Rahu Ketu Dosh Puja in Pune. Vedic Remedies for confusion, health issues, and sudden losses. Havan included. ₹2,100 onwards.',
       focusKeyword: 'rahu ketu dosh puja pune',
@@ -2212,8 +2213,8 @@ export function getPujaData(slug: string) {
     },
     // ... (other 9 existing pujas would be here)
     // PHASE 2 PRIORITY PUJAS - VRAT UDYAPAN
-    'santoshi-mata-vrat-udyapan': {
-      title: 'Santoshi Mata Vrat Udyapan',
+    'santoshi-mata-vrat-udyapan-in-pune': {
+      title: 'Santoshi Mata Vrat Udyapan in Pune',
       metaTitle: 'Santoshi Mata Vrat Udyapan in Pune | 16 Friday Fast Ritual',
       metaDescription: 'Book Pandit for Santoshi Mata Vrat Udyapan in Pune. Authentic 16 Friday Fast conclusion with Udyapan Vidhi, Katha, and Havan. ₹2,100 onwards.',
       focusKeyword: 'santoshi mata vrat udyapan pune',
@@ -2250,8 +2251,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'somvar-vrat-udyapan': {
-      title: 'Somvar Vrat Udyapan',
+    'somvar-vrat-udyapan-in-pune': {
+      title: 'Somvar Vrat Udyapan in Pune',
       metaTitle: 'Somvar Vrat Udyapan in Pune | 16 Monday Fast Conclusion',
       metaDescription: 'Book Pandit for Somvar (Solah Somvar) Vrat Udyapan in Pune. Shiv Puja for marriage, health, and fulfillment of wishes. ₹2,100 onwards.',
       focusKeyword: 'somvar vrat udyapan pune',
@@ -2287,8 +2288,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'mangala-gauri-vrat-udyapan': {
-      title: 'Mangala Gauri Vrat Udyapan',
+    'mangala-gauri-vrat-udyapan-in-pune': {
+      title: 'Mangala Gauri Vrat Udyapan in Pune',
       metaTitle: 'Mangala Gauri Vrat Udyapan in Pune | Shravan Tuesday Puja',
       metaDescription: 'Book Pandit for Mangala Gauri Vrat Udyapan in Pune. Puja for newly wed brides for husband\'s long life. ₹2,500 onwards.',
       focusKeyword: 'mangala gauri vrat udyapan pune',
@@ -2324,8 +2325,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'hartalika-teej-vrat-udyapan': {
-      title: 'Hartalika Teej Vrat Udyapan',
+    'hartalika-teej-vrat-udyapan-in-pune': {
+      title: 'Hartalika Teej Vrat Udyapan in Pune',
       metaTitle: 'Hartalika Teej Vrat Udyapan in Pune | Shiva Parvati Puja',
       metaDescription: 'Book Pandit for Hartalika Teej Vrat Udyapan in Pune. Celebrate the union of Shiva-Parvati with authentic rituals. ₹2,500 onwards.',
       focusKeyword: 'hartalika teej vrat udyapan pune',
@@ -2360,8 +2361,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'vat-savitri-vrat-udyapan': {
-      title: 'Vat Savitri Vrat Udyapan',
+    'vat-savitri-vrat-udyapan-in-pune': {
+      title: 'Vat Savitri Vrat Udyapan in Pune',
       metaTitle: 'Vat Savitri Vrat Udyapan in Pune | Banyan Tree Puja',
       metaDescription: 'Book Pandit for Vat Savitri Vrat Udyapan in Pune. Worship of the Banyan tree for husband\'s longevity. Authentic Vidhi. ₹2,100 onwards.',
       focusKeyword: 'vat savitri vrat udyapan pune',
@@ -2396,8 +2397,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'pradosh-vrat-udyapan': {
-      title: 'Pradosh Vrat Udyapan',
+    'pradosh-vrat-udyapan-in-pune': {
+      title: 'Pradosh Vrat Udyapan in Pune',
       metaTitle: 'Pradosh Vrat Udyapan in Pune | Sunset Shiva Puja',
       metaDescription: 'Book Pandit for Pradosh Vrat Udyapan in Pune. Conclude your Pradosh fasts with twilight Shiva Puja, Rudrabhishek, and Havan. ₹2,500 onwards.',
       focusKeyword: 'pradosh vrat udyapan pune',
@@ -2433,8 +2434,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'sawan-shivratri-vrat-udyapan': {
-      title: 'Sawan Shivratri Vrat Udyapan',
+    'sawan-shivratri-vrat-udyapan-in-pune': {
+      title: 'Sawan Shivratri Vrat Udyapan in Pune',
       metaTitle: 'Sawan Shivratri Vrat Udyapan in Pune | Shravan Month Puja',
       metaDescription: 'Book Pandit for Sawan Shivratri Vrat Udyapan in Pune. Special Shravan Shiva Puja and Abhishek. ₹2,500 onwards.',
       focusKeyword: 'sawan shivratri vrat udyapan pune',
@@ -2469,8 +2470,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'shravan-somvar-vrat-udyapan': {
-      title: 'Shravan Somvar Vrat Udyapan',
+    'shravan-somvar-vrat-udyapan-in-pune': {
+      title: 'Shravan Somvar Vrat Udyapan in Pune',
       metaTitle: 'Shravan Somvar Vrat Udyapan in Pune | Shravan Monday Puja',
       metaDescription: 'Book Pandit for Shravan Somvar Vrat Udyapan in Pune. Concluding puja for the holy Shravan Mondays. ₹2,100 onwards.',
       focusKeyword: 'shravan somvar vrat udyapan pune',
@@ -2505,8 +2506,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'shukravar-lakshmi-vrat-udyapan': {
-      title: 'Shukravar Lakshmi Vrat Udyapan',
+    'shukravar-lakshmi-vrat-udyapan-in-pune': {
+      title: 'Shukravar Lakshmi Vrat Udyapan in Pune',
       metaTitle: 'Vaibhav Lakshmi / Shukravar Vrat Udyapan in Pune',
       metaDescription: 'Book Pandit for Vaibhav Lakshmi or Shukravar Vrat Udyapan in Pune. Invoke abundance and prosperity. ₹2,100 onwards.',
       focusKeyword: 'shukravar lakshmi vrat udyapan pune',
@@ -2541,8 +2542,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'mangalmurti-vrat-udyapan': {
-      title: 'Mangalmurti Vrat Udyapan',
+    'mangalmurti-vrat-udyapan-in-pune': {
+      title: 'Mangalmurti Vrat Udyapan in Pune',
       metaTitle: 'Mangalmurti Vrat Udyapan in Pune | Tuesday Ganesh Vrat',
       metaDescription: 'Book Pandit for Mangalmurti Vrat Udyapan in Pune. Authentic Ganesh Puja on Tuesdays for removing obstacles and finding success. ₹2,100 onwards.',
       focusKeyword: 'mangalmurti vrat udyapan pune',
@@ -2576,8 +2577,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'skanda-sashti-vrat-udyapan': {
-      title: 'Skanda Sashti Vrat Udyapan',
+    'skanda-sashti-vrat-udyapan-in-pune': {
+      title: 'Skanda Sashti Vrat Udyapan in Pune',
       metaTitle: 'Skanda Sashti Vrat Udyapan in Pune | Lord Kartikeya Puja',
       metaDescription: 'Book Pandit for Skanda Sashti Vrat Udyapan in Pune. Worship Lord Kartikeya (Murugan) for victory and removing Kuja/Mangal dosha. ₹2,500 onwards.',
       focusKeyword: 'skanda sashti vrat udyapan pune',
@@ -2611,8 +2612,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'ahoi-ashtami-vrat-udyapan': {
-      title: 'Ahoi Ashtami Vrat Udyapan',
+    'ahoi-ashtami-vrat-udyapan-in-pune': {
+      title: 'Ahoi Ashtami Vrat Udyapan in Pune',
       metaTitle: 'Ahoi Ashtami Vrat Udyapan in Pune | Mothers\' Puja for Children',
       metaDescription: 'Book Pandit for Ahoi Ashtami Vrat Udyapan in Pune. Mothers\' special puja for long life and well-being of children. ₹2,100 onwards.',
       focusKeyword: 'ahoi ashtami vrat udyapan pune',
@@ -2646,8 +2647,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'janmashtami-vrat-udyapan': {
-      title: 'Janmashtami Vrat Udyapan',
+    'janmashtami-vrat-udyapan-in-pune': {
+      title: 'Janmashtami Vrat Udyapan in Pune',
       metaTitle: 'Janmashtami Vrat Udyapan in Pune | Krishna Janmotsav Puja',
       metaDescription: 'Book Pandit for Janmashtami Vrat Udyapan in Pune. Celebrate Lord Krishna\'s birth with authentic midnight Puja and Abhishek. ₹2,500 onwards.',
       focusKeyword: 'janmashtami vrat udyapan pune',
@@ -2681,8 +2682,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'radha-ashtami-vrat-udyapan': {
-      title: 'Radha Ashtami Vrat Udyapan',
+    'radha-ashtami-vrat-udyapan-in-pune': {
+      title: 'Radha Ashtami Vrat Udyapan in Pune',
       metaTitle: 'Radha Ashtami Vrat Udyapan in Pune | Radha Rani Puja',
       metaDescription: 'Book Pandit for Radha Ashtami Vrat Udyapan in Pune. Celebrate the birth of Radha Rani with devotion and love. ₹2,500 onwards.',
       focusKeyword: 'radha ashtami vrat udyapan pune',
@@ -2716,8 +2717,8 @@ export function getPujaData(slug: string) {
       ]
     },
 
-    'hanuman-vrat-udyapan': {
-      title: 'Hanuman Vrat Udyapan',
+    'hanuman-vrat-udyapan-in-pune': {
+      title: 'Hanuman Vrat Udyapan in Pune',
       metaTitle: 'Hanuman Vrat Udyapan in Pune | Tuesday Fast Puja',
       metaDescription: 'Book Pandit for Hanuman Vrat Udyapan in Pune. Authentic Tuesday/Saturday Puja for strength, courage, and protection. ₹2,100 onwards.',
       focusKeyword: 'hanuman vrat udyapan pune',
@@ -2756,8 +2757,8 @@ export function getPujaData(slug: string) {
 
 
     // GODDESS PUJA BATCH 1 - PROTECTION
-    'baglamukhi-puja': {
-      title: 'Baglamukhi Puja',
+    'baglamukhi-puja-in-pune': {
+      title: 'Baglamukhi Puja in Pune',
       metaTitle: 'Baglamukhi Puja in Pune | Victory over Enemies & Court Cases',
       metaDescription: 'Book Baglamukhi Puja in Pune. Powerful Vedic ritual for victory in court cases, defeating enemies, and success in politics. Expert pandits.',
       focusKeyword: 'baglamukhi puja pune',
@@ -2770,8 +2771,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those facing legal disputes, property issues, or severe professional rivalry.',
       faqs: [{ question: 'Is yellow color important?', answer: 'Yes, yellow flowers, turmeric, and yellow clothes are essential for Baglamukhi worship.' }]
     },
-    'kali-puja': {
-      title: 'Kali Puja',
+    'kali-puja-in-pune': {
+      title: 'Kali Puja in Pune',
       metaTitle: 'Kali Puja in Pune | Protection from Black Magic & Spirits',
       metaDescription: 'Book Kali Puja in Pune. Remove fear, black magic, and evil spirits. Powerful protection ritual by expert pandits.',
       focusKeyword: 'kali puja pune',
@@ -2784,8 +2785,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Anyone feeling threatened by negative energies, fear, or seeking spiritual strength.',
       faqs: [{ question: 'Is it done at night?', answer: 'Yes, Kali Puja is most powerful when performed at night, especially on Amavasya.' }]
     },
-    'chandi-homa': {
-      title: 'Chandi Homa',
+    'chandi-homa-in-pune': {
+      title: 'Chandi Homa in Pune',
       metaTitle: 'Chandi Homa in Pune | Grand Victory & Success Ritual',
       metaDescription: 'Book Chandi Homa in Pune. The most powerful Havan for huge success, health, and clearing obstacles. 700 verses recitation.',
       focusKeyword: 'chandi homa pune',
@@ -2798,8 +2799,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those seeking massive success, facing life-threatening issues, or wanting complete purity.',
       faqs: [{ question: 'How many pandits are needed?', answer: 'Usually 5 to 9 pandits are required for a full-scale Chandi Homa.' }]
     },
-    'pratyangira-devi-puja': {
-      title: 'Pratyangira Devi Puja',
+    'pratyangira-devi-puja-in-pune': {
+      title: 'Pratyangira Devi Puja in Pune',
       metaTitle: 'Pratyangira Devi Puja in Pune | Remove Black Magic & Evil Eye',
       metaDescription: 'Book Pratyangira Devi Puja in Pune. Fierce protection against witchcraft, curses, and enemies. Expert Tantra Vidhi pandits.',
       focusKeyword: 'pratyangira devi puja pune',
@@ -2812,8 +2813,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those suffering from severe black magic symptoms or persistent bad luck.',
       faqs: [{ question: 'Is this ugra (fierce) puja?', answer: 'Yes, it is a fierce ritual and must be done by expert pandits only.' }]
     },
-    'kamakhya-devi-puja': {
-      title: 'Kamakhya Devi Puja',
+    'kamakhya-devi-puja-in-pune': {
+      title: 'Kamakhya Devi Puja in Pune',
       metaTitle: 'Kamakhya Devi Puja in Pune | Fertility & Tantric Remedies',
       metaDescription: 'Book Kamakhya Devi Puja in Pune. For fertility, love problems, and removing Kaal Sarp Dosh. Authentic Vidhi.',
       focusKeyword: 'kamakhya devi puja pune',
@@ -2828,8 +2829,8 @@ export function getPujaData(slug: string) {
     },
 
     // GODDESS PUJA BATCH 2 - WEALTH (LAKSHMI)
-    'vaibhav-lakshmi-vrat': {
-      title: 'Vaibhav Lakshmi Vrat',
+    'vaibhav-lakshmi-vrat-in-pune': {
+      title: 'Vaibhav Lakshmi Vrat in Pune',
       metaTitle: 'Vaibhav Lakshmi Vrat Puja in Pune | Restore Lost Wealth',
       metaDescription: 'Book Vaibhav Lakshmi Puja in Pune. Friday Vrat ritual for financial recovery and prosperity. Expert pandits.',
       focusKeyword: 'vaibhav lakshmi vrat pune',
@@ -2842,8 +2843,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those facing debts, financial losses, or wanting stable income.',
       faqs: [{ question: 'Can I do it at home?', answer: 'Yes, it is a home-based vrat, but a pandit helps with Udyapan.' }]
     },
-    'varalakshmi-vrat': {
-      title: 'Varalakshmi Vrat',
+    'varalakshmi-vrat-in-pune': {
+      title: 'Varalakshmi Vrat in Pune',
       metaTitle: 'Varalakshmi Vrat Puja in Pune | South Indian Tradition',
       metaDescription: 'Book Varalakshmi Vrat Puja in Pune. Traditional South Indian Lakshmi puja for married women. Authentic Vadhi.',
       focusKeyword: 'varalakshmi vrat pune',
@@ -2856,8 +2857,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Married women, especially attempting it for the first time.',
       faqs: [{ question: 'When is it performed?', answer: 'On the Second Friday of Shravan month (July-August).' }]
     },
-    'mahalakshmi-homa': {
-      title: 'Mahalakshmi Homa',
+    'mahalakshmi-homa-in-pune': {
+      title: 'Mahalakshmi Homa in Pune',
       metaTitle: 'Mahalakshmi Homa in Pune | Fire Ritual for Abundance',
       metaDescription: 'Book Mahalakshmi Homa in Pune. Powerful fire ritual with lotus flowers for immense wealth. Expert pandits.',
       focusKeyword: 'mahalakshmi homa pune',
@@ -2870,8 +2871,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Business owners and those seeking rapid financial growth.',
       faqs: [{ question: 'What is the main offering?', answer: '108 Lotus flowers dipped in ghee/honey are the main offering.' }]
     },
-    'gajalakshmi-puja': {
-      title: 'Gajalakshmi Puja',
+    'gajalakshmi-puja-in-pune': {
+      title: 'Gajalakshmi Puja in Pune',
       metaTitle: 'Gajalakshmi Puja in Pune | Royal Wealth & Power',
       metaDescription: 'Book Gajalakshmi Puja in Pune. Worship of Lakshmi with Elephants for power, property, and royalty.',
       focusKeyword: 'gajalakshmi puja pune',
@@ -2884,8 +2885,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those in real estate, politics, or seeking to buy a house/car.',
       faqs: [{ question: 'Is it done for buying a house?', answer: 'Yes, it is highly recommended before property purchase.' }]
     },
-    'aishwarya-lakshmi-puja': {
-      title: 'Aishwarya Lakshmi Puja',
+    'aishwarya-lakshmi-puja-in-pune': {
+      title: 'Aishwarya Lakshmi Puja in Pune',
       metaTitle: 'Aishwarya Lakshmi Puja in Pune | Fame & Recognition',
       metaDescription: 'Book Aishwarya Lakshmi Puja in Pune. For fame, social status, and recognition along with wealth.',
       focusKeyword: 'aishwarya lakshmi puja pune',
@@ -2900,8 +2901,8 @@ export function getPujaData(slug: string) {
     },
 
     // GODDESS PUJA BATCH 3 - MARRIAGE (GAURI)
-    'mangala-gauri-puja': {
-      title: 'Mangala Gauri Puja',
+    'mangala-gauri-puja-in-pune': {
+      title: 'Mangala Gauri Puja in Pune',
       metaTitle: 'Mangala Gauri Puja in Pune | For Early Marriage',
       metaDescription: 'Book Mangala Gauri Puja in Pune. Resolve marriage delays and ensure a good husband. Expert pandits.',
       focusKeyword: 'mangala gauri puja pune',
@@ -2914,8 +2915,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Unmarried girls facing delays or obstacles in finding a match.',
       faqs: [{ question: 'Can it be done on any day?', answer: 'Tuesdays are best, especially in Shravan month.' }]
     },
-    'katyayani-puja': {
-      title: 'Katyayani Puja',
+    'katyayani-puja-in-pune': {
+      title: 'Katyayani Puja in Pune',
       metaTitle: 'Katyayani Puja in Pune | Vraj Gopi Ritual for Marriage',
       metaDescription: 'Book Katyayani Puja in Pune. The famous ritual performed by Gopis to get Lord Krishna. For desired love marriage.',
       focusKeyword: 'katyayani puja pune',
@@ -2928,8 +2929,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Couples facing opposition in love marriage or girls wanting a specific partner.',
       faqs: [{ question: 'Is it only for girls?', answer: 'Primarily yes, but men can also do it for a good wife.' }]
     },
-    'uma-maheshwari-puja': {
-      title: 'Uma Maheshwari Puja',
+    'uma-maheshwari-puja-in-pune': {
+      title: 'Uma Maheshwari Puja in Pune',
       metaTitle: 'Uma Maheshwari Puja in Pune | Marital Harmony',
       metaDescription: 'Book Uma Maheshwari Puja in Pune. Joint worship of Shiva and Parvati for resolving husband-wife disputes.',
       focusKeyword: 'uma maheshwari puja pune',
@@ -2942,8 +2943,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Couples facing discord, lack of understanding, or on the verge of separation.',
       faqs: [{ question: 'Do both partners need to be present?', answer: 'Ideally yes, but can be done by one with Sankalp for both.' }]
     },
-    'swayamvara-parvati-puja': {
-      title: 'Swayamvara Parvati Puja',
+    'swayamvara-parvati-puja-in-pune': {
+      title: 'Swayamvara Parvati Puja in Pune',
       metaTitle: 'Swayamvara Parvati Puja in Pune | Find Your Soulmate',
       metaDescription: 'Book Swayamvara Parvati Puja in Pune. Powerful ancient mantra for removing all marriage obstacles.',
       focusKeyword: 'swayamvara parvati puja pune',
@@ -2956,8 +2957,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those with severe marriage delays, second marriage seekers, or older singles.',
       faqs: [{ question: 'Is it effective for late marriage?', answer: 'Yes, it is specifically known for solving late marriage cases.' }]
     },
-    'santoshi-mata-vrat': {
-      title: 'Santoshi Mata Vrat Puja',
+    'santoshi-mata-vrat-in-pune': {
+      title: 'Santoshi Mata Vrat Puja in Pune',
       metaTitle: 'Santoshi Mata Vrat Puja in Pune | Wish Fulfillment',
       metaDescription: 'Book Santoshi Mata Puja in Pune. 16 Friday fast ritual for peace, satisfaction, and wish fulfillment.',
       focusKeyword: 'santoshi mata puja pune',
@@ -2972,8 +2973,8 @@ export function getPujaData(slug: string) {
     },
 
     // GODDESS PUJA BATCH 4 - WISDOM (SARASWATI)
-    'saraswati-homa': {
-      title: 'Saraswati Homa',
+    'saraswati-homa-in-pune': {
+      title: 'Saraswati Homa in Pune',
       metaTitle: 'Saraswati Homa in Pune | For Students & Education',
       metaDescription: 'Book Saraswati Homa in Pune. Boost memory, focus, and exam success. Expert Vedic pandits.',
       focusKeyword: 'saraswati homa pune',
@@ -2986,8 +2987,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Students giving board exams, competitive exams, or artists/musicians.',
       faqs: [{ question: 'When is it best done?', answer: 'Before exams, on Vasant Panchami, or Thursdays/Wednesdays.' }]
     },
-    'gayatri-homa': {
-      title: 'Gayatri Homa',
+    'gayatri-homa-in-pune': {
+      title: 'Gayatri Homa in Pune',
       metaTitle: 'Gayatri Homa in Pune | Wisdom & Purification',
       metaDescription: 'Book Gayatri Homa in Pune. Powerful purification ritual using the Gayatri Mantra. Enlightens the mind.',
       focusKeyword: 'gayatri homa pune',
@@ -3000,8 +3001,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Anyone seeking spiritual cleansing, atonement for sins (Prayaschit), or mental clarity.',
       faqs: [{ question: 'Can anyone perform Gayatri Havan?', answer: 'Yes, it is a universal prayer for light and wisdom.' }]
     },
-    'sheetala-mata-puja': {
-      title: 'Sheetala Mata Puja',
+    'sheetala-mata-puja-in-pune': {
+      title: 'Sheetala Mata Puja in Pune',
       metaTitle: 'Sheetala Mata Puja in Pune | For Health & Immunity',
       metaDescription: 'Book Sheetala Mata Puja in Pune. Protection from pox, skin diseases, and fevers. Health blessing.',
       focusKeyword: 'sheetala mata puja pune',
@@ -3014,8 +3015,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Families with children suffering from skin issues or recurring fevers.',
       faqs: [{ question: 'Is stale food offered?', answer: 'Yes, Basoda (stale/cold food) is the traditional offering to Sheetala Mata.' }]
     },
-    'annapurna-puja': {
-      title: 'Annapurna Puja',
+    'annapurna-puja-in-pune': {
+      title: 'Annapurna Puja in Pune',
       metaTitle: 'Annapurna Puja in Pune | For Food & Abundance',
       metaDescription: 'Book Annapurna Puja in Pune. Ensure your kitchen is always full. For restaurants and homes.',
       focusKeyword: 'annapurna puja pune',
@@ -3028,8 +3029,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Restaurant owners, or heads of households wanting kitchen prosperity.',
       faqs: [{ question: 'Where is it done?', answer: 'Usually in the kitchen or pantry area.' }]
     },
-    'rajarajeshwari-puja': {
-      title: 'Rajarajeshwari Puja',
+    'rajarajeshwari-puja-in-pune': {
+      title: 'Rajarajeshwari Puja in Pune',
       metaTitle: 'Rajarajeshwari Puja in Pune | Supreme Devi Worship',
       metaDescription: 'Book Rajarajeshwari Puja in Pune. Worship of the Queen of Goddesses for total command and harmony.',
       focusKeyword: 'rajarajeshwari puja pune',
@@ -3045,8 +3046,8 @@ export function getPujaData(slug: string) {
 
     // FESTIVAL PUJAS BATCH 1
 
-    'diwali-lakshmi-puja': {
-      title: 'Diwali Lakshmi Puja',
+    'diwali-lakshmi-puja-in-pune': {
+      title: 'Diwali Lakshmi Puja in Pune',
       metaTitle: 'Diwali Lakshmi Puja in Pune | Laxmi Pujan & Chopda Pujan',
       metaDescription: 'Book Diwali Lakshmi Puja in Pune. Authentic Vedic Laxmi Pujan and Kuber Puja for wealth and business growth.',
       focusKeyword: 'diwali lakshmi puja pune',
@@ -3059,8 +3060,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Families and businesses seeking financial growth on Deepavali.',
       faqs: [{ question: 'Is it done in office?', answer: 'Yes, we specialize in corporate and office Lakshmi Pujan.' }]
     },
-    'gudi-padwa-puja': {
-      title: 'Gudi Padwa Puja',
+    'gudi-padwa-puja-in-pune': {
+      title: 'Gudi Padwa Puja in Pune',
       metaTitle: 'Gudi Padwa Puja in Pune | Marathi New Year',
       metaDescription: 'Book Gudi Padwa Puja in Pune. Traditional Gudi Ubharne and New Year Sankalp rituals. Start the year with victory.',
       focusKeyword: 'gudi padwa puja pune',
@@ -3073,8 +3074,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Maharashtrian families and anyone starting new ventures on this auspicious day.',
       faqs: [{ question: 'Is it done at sunrise?', answer: 'Yes, ideally the Gudi should be raised soon after sunrise.' }]
     },
-    'dussehra-puja': {
-      title: 'Dussehra Puja',
+    'dussehra-puja-in-pune': {
+      title: 'Dussehra Puja in Pune',
       metaTitle: 'Dussehra Puja in Pune | Ayudha & Saraswati Puja',
       metaDescription: 'Book Dussehra/Dasara Puja in Pune. Ayudha Puja for vehicles/tools and Saraswati Puja for students.',
       focusKeyword: 'dussehra puja pune',
@@ -3087,8 +3088,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Students, professionals, and vehicle owners seeking success.',
       faqs: [{ question: 'Can we do car puja?', answer: 'Yes, vehicle puja is a major part of Dussehra celebrations.' }]
     },
-    'tulsi-vivah-puja': {
-      title: 'Tulsi Vivah Puja',
+    'tulsi-vivah-puja-in-pune': {
+      title: 'Tulsi Vivah Puja in Pune',
       metaTitle: 'Tulsi Vivah Puja in Pune | Tulsi Shaligram Marriage',
       metaDescription: 'Book Tulsi Vivah Puja in Pune. Ceremonial marriage of Tulsi and Shaligram. Divine blessings for marital bliss.',
       focusKeyword: 'tulsi vivah puja pune',
@@ -3103,8 +3104,8 @@ export function getPujaData(slug: string) {
     },
 
     // FESTIVAL PUJAS BATCH 2
-    'makar-sankranti-puja': {
-      title: 'Makar Sankranti Puja',
+    'makar-sankranti-puja-in-pune': {
+      title: 'Makar Sankranti Puja in Pune',
       metaTitle: 'Makar Sankranti Puja in Pune | Surya Puja & Sugad Pujan',
       metaDescription: 'Book Pandit for Makar Sankranti Puja. Authentic Surya Dev Puja, Sugad Pujan, and Dan-Punya vidhi for Uttarayan.',
       focusKeyword: 'makar sankranti puja pune',
@@ -3133,8 +3134,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'holi-puja': {
-      title: 'Holi Puja',
+    'holi-puja-in-pune': {
+      title: 'Holi Puja in Pune',
       metaTitle: 'Holi Puja in Pune | Holika Dahan Vidhi',
       metaDescription: 'Book Pandit for Holika Dahan Puja in Pune. Authentic vidhi for victory of devotion, removing negativity, and community bonding.',
       focusKeyword: 'holi puja pune',
@@ -3163,8 +3164,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'rishi-panchami-puja': {
-      title: 'Rishi Panchami Puja',
+    'rishi-panchami-puja-in-pune': {
+      title: 'Rishi Panchami Puja in Pune',
       metaTitle: 'Rishi Panchami Puja in Pune | Saptarishi Pujan',
       metaDescription: 'Book Pandit for Rishi Panchami Puja. Atonement ritual for Rajaswala Dosh. Saptarishi Pujan vidhi by expert pandits.',
       focusKeyword: 'rishi panchami puja pune',
@@ -3193,8 +3194,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'narak-chaturdashi-puja': {
-      title: 'Narak Chaturdashi Puja',
+    'narak-chaturdashi-puja-in-pune': {
+      title: 'Narak Chaturdashi Puja in Pune',
       metaTitle: 'Narak Chaturdashi Puja in Pune | Abhyanga Snan Vidhi',
       metaDescription: 'Book Pandit for Narak Chaturdashi / Choti Diwali. Yam Deep Dan and Abhyanga Snan rituals to remove fear and negativity.',
       focusKeyword: 'narak chaturdashi puja pune',
@@ -3222,8 +3223,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'bhai-dooj-puja': {
-      title: 'Bhai Dooj Puja',
+    'bhai-dooj-puja-in-pune': {
+      title: 'Bhai Dooj Puja in Pune',
       metaTitle: 'Bhai Dooj Puja in Pune | Bhau Beej Ceremony',
       metaDescription: 'Book Pandit for Bhai Dooj / Bhau Beej. Traditional Tilak and protection rituals for brother\'s long life and sibling harmony.',
       focusKeyword: 'bhai dooj puja pune',
@@ -3254,8 +3255,8 @@ export function getPujaData(slug: string) {
     },
 
     // FESTIVAL PUJAS BATCH 3 (Regional & Periodic)
-    'raksha-bandhan-puja': {
-      title: 'Raksha Bandhan Puja',
+    'raksha-bandhan-puja-in-pune': {
+      title: 'Raksha Bandhan Puja in Pune',
       metaTitle: 'Raksha Bandhan Puja in Pune | Vedic Rakhi Ties',
       metaDescription: 'Book Pandit for Raksha Bandhan Puja. Authentic Vedic Rakhi ritual to bless the bond of protection. Sanctified Rakhi tying ceremony.',
       focusKeyword: 'raksha bandhan puja pune',
@@ -3284,8 +3285,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'navratri-puja': {
-      title: 'Navratri Puja',
+    'navratri-puja-in-pune': {
+      title: 'Navratri Puja in Pune',
       metaTitle: 'Navratri Puja in Pune | Ghat Sthapana & 9 Days Puja',
       metaDescription: 'Book Pandit for Navratri Puja in Pune. Ghat Sthapana, daily Durga Saptashati Paath, and Kanya Pujan for full 9 days blessings.',
       focusKeyword: 'navratri puja pune',
@@ -3314,8 +3315,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'durga-ashtami-puja': {
-      title: 'Durga Ashtami Puja',
+    'durga-ashtami-puja-in-pune': {
+      title: 'Durga Ashtami Puja in Pune',
       metaTitle: 'Durga Ashtami Puja in Pune | Maha Ashtami Homa',
       metaDescription: 'Book Pandit for Durga Ashtami Puja. Maha Ashtami Havan, Sandhi Puja, and Kanya Pujan services in Pune.',
       focusKeyword: 'durga ashtami puja pune',
@@ -3345,8 +3346,8 @@ export function getPujaData(slug: string) {
       ],
     },
 
-    'ram-navami-puja': {
-      title: 'Ram Navami Puja',
+    'ram-navami-puja-in-pune': {
+      title: 'Ram Navami Puja in Pune',
       metaTitle: 'Ram Navami Puja in Pune | Ram Janmotsav Vidhi',
       metaDescription: 'Book Pandit for Ram Navami Puja. Celebration of Lord Rama\'s birth. Ramayana Paath and Havan services in Pune.',
       focusKeyword: 'ram navami puja pune',
@@ -3375,8 +3376,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'maha-shivratri-puja': {
-      title: 'Maha Shivratri Puja',
+    'maha-shivratri-puja-in-pune': {
+      title: 'Maha Shivratri Puja in Pune',
       metaTitle: 'Maha Shivratri Puja in Pune | Char Pahar Puja',
       metaDescription: 'Book Pandit for Maha Shivratri Puja in Pune. Rudrabhishek, Char Pahar Puja, and Bilva Patra Archana for Lord Shiva.',
       focusKeyword: 'maha shivratri puja pune',
@@ -3407,8 +3408,8 @@ export function getPujaData(slug: string) {
     },
 
     // FESTIVAL PUJAS BATCH 4 (Harvest & Moon)
-    'pongal-puja': {
-      title: 'Pongal Puja',
+    'pongal-puja-in-pune': {
+      title: 'Pongal Puja in Pune',
       metaTitle: 'Pongal Puja in Pune | Thai Pongal & Sankranti',
       metaDescription: 'Book Tamil Pandit for Pongal Puja in Pune. Authentic Surya Pongal rituals with pot boiling ceremony.',
       focusKeyword: 'pongal puja pune',
@@ -3437,8 +3438,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'chhath-puja': {
-      title: 'Chhath Puja',
+    'chhath-puja-in-pune': {
+      title: 'Chhath Puja in Pune',
       metaTitle: 'Chhath Puja in Pune | Arghya to Surya & Chhathi Maiya',
       metaDescription: 'Book Pandit for Chhath Puja in Pune. Assistance with Sandhya Arghya, Usha Arghya, and Soop preparation.',
       focusKeyword: 'chhath puja pune',
@@ -3466,8 +3467,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'ugadi-puja': {
-      title: 'Ugadi / Yugadi Puja',
+    'ugadi-puja-in-pune': {
+      title: 'Ugadi / Yugadi Puja in Pune',
       metaTitle: 'Ugadi Puja in Pune | Telugu & Kannada New Year',
       metaDescription: 'Book Pandit for Ugadi/Yugadi Puja in Pune. Panchanga Sravanam and specialized New Year rituals.',
       focusKeyword: 'ugadi puja pune',
@@ -3496,8 +3497,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'baisakhi-puja': {
-      title: 'Baisakhi Puja',
+    'baisakhi-puja-in-pune': {
+      title: 'Baisakhi Puja in Pune',
       metaTitle: 'Baisakhi Puja in Pune | Sikh & Hindu New Year',
       metaDescription: 'Book Pandit for Baisakhi Puja. Harvest thanksgiving and New Year blessings. Satyanarayan or Havan options.',
       focusKeyword: 'baisakhi puja pune',
@@ -3525,8 +3526,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'onam-puja': {
-      title: 'Onam Puja',
+    'onam-puja-in-pune': {
+      title: 'Onam Puja in Pune',
       metaTitle: 'Onam Puja in Pune | Thiruonam Rituals',
       metaDescription: 'Book Pandit for Onam Puja in Pune. Welcome King Mahabali and Vamana Avatar worship.',
       focusKeyword: 'onam puja pune',
@@ -3554,8 +3555,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'sharad-purnima-puja': {
-      title: 'Sharad Purnima Puja',
+    'sharad-purnima-puja-in-pune': {
+      title: 'Sharad Purnima Puja in Pune',
       metaTitle: 'Sharad Purnima Puja in Pune | Kojagiri Lakshmi Puja',
       metaDescription: 'Book Pandit for Sharad Purnima / Kojagiri. Midnight Lakshmi Puja and Kheer offering rituals.',
       focusKeyword: 'sharad purnima puja pune',
@@ -3586,8 +3587,8 @@ export function getPujaData(slug: string) {
     },
 
     // BHAJAN & CHOWKI BATCH 1 (Major Events)
-    'mata-ki-chowki': {
-      title: 'Mata Ki Chowki',
+    'mata-ki-chowki-in-pune': {
+      title: 'Mata Ki Chowki in Pune',
       metaTitle: 'Mata Ki Chowki in Pune | Devotional Musical Night',
       metaDescription: 'Book Mata Ki Chowki in Pune. 4-5 hours of devotional singing, Bhog, and Aarti. Best musical groups and mandalis.',
       focusKeyword: 'mata ki chowki pune',
@@ -3618,8 +3619,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'mata-ka-jagran': {
-      title: 'Mata Ka Jagran',
+    'mata-ka-jagran-in-pune': {
+      title: 'Mata Ka Jagran in Pune',
       metaTitle: 'Mata Ka Jagran in Pune | All Night Devotion',
       metaDescription: 'Book Mata Ka Jagran in Pune. All-night devotional singing with orchestra and jhankis. Complete event management.',
       focusKeyword: 'mata ka jagran pune',
@@ -3650,8 +3651,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'sai-bhajan-sandhya': {
-      title: 'Sai Bhajan Sandhya',
+    'sai-bhajan-sandhya-in-pune': {
+      title: 'Sai Bhajan Sandhya in Pune',
       metaTitle: 'Sai Bhajan Sandhya in Pune | Sai Baba Kirtan',
       metaDescription: 'Book Sai Bhajan Sandhya in Pune. Soulful Sai Baba bhajans and palkhi seva. Experienced Sai singers.',
       focusKeyword: 'sai bhajan sandhya pune',
@@ -3680,8 +3681,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'krishna-bhajan-sandhya': {
-      title: 'Krishna Bhajan Sandhya',
+    'krishna-bhajan-sandhya-in-pune': {
+      title: 'Krishna Bhajan Sandhya in Pune',
       metaTitle: 'Krishna Bhajan Sandhya in Pune | Hare Krishna Kirtan',
       metaDescription: 'Book Krishna Bhajan Sandhya in Pune. Joyful Hare Krishna kirtan and bhajans. Flute and Dholak accompaniment.',
       focusKeyword: 'krishna bhajan sandhya pune',
@@ -3710,8 +3711,8 @@ export function getPujaData(slug: string) {
         },
       ],
     },
-    'ram-bhajan-sandhya': {
-      title: 'Ram Bhajan Sandhya',
+    'ram-bhajan-sandhya-in-pune': {
+      title: 'Ram Bhajan Sandhya in Pune',
       metaTitle: 'Ram Bhajan Sandhya in Pune | Ramayana Chaupai',
       metaDescription: 'Book Ram Bhajan Sandhya in Pune. Traditional Ramayana chaupais and bhajans. Serene and devotional.',
       focusKeyword: 'ram bhajan sandhya pune',
@@ -3742,8 +3743,8 @@ export function getPujaData(slug: string) {
     },
 
     // BHAJAN & CHOWKI BATCH 2 (Specialized)
-    'shiv-bhajan-sandhya': {
-      title: 'Shiv Bhajan Sandhya',
+    'shiv-bhajan-sandhya-in-pune': {
+      title: 'Shiv Bhajan Sandhya in Pune',
       metaTitle: 'Shiv Bhajan Sandhya in Pune | Bhole Baba Kirtan',
       metaDescription: 'Book Shiv Bhajan Sandhya. Powerful Damru and Dhol beats for Lord Shiva. Energetic and meditative.',
       focusKeyword: 'shiv bhajan sandhya pune',
@@ -3756,8 +3757,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Shiv Bhakts and those celebrating Mahashivratri or Shravan month.',
       faqs: [{ question: 'Is it loud?', answer: 'It can be energetic, but we can adjust volume to your preference.' }]
     },
-    'hanuman-bhajan-sandhya': {
-      title: 'Hanuman Bhajan Sandhya',
+    'hanuman-bhajan-sandhya-in-pune': {
+      title: 'Hanuman Bhajan Sandhya in Pune',
       metaTitle: 'Hanuman Bhajan Sandhya in Pune | Sunderkand Music',
       metaDescription: 'Book Hanuman Bhajan Sandhya. Musical Sunderkand and Hanuman Chalisa. Strength and devotion.',
       focusKeyword: 'hanuman bhajan sandhya pune',
@@ -3770,8 +3771,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Anyone facing fear, health issues, or seeking specific protection.',
       faqs: [{ question: 'Is Sunderkand included?', answer: 'Yes, typically musical Sunderkand is the core part.' }]
     },
-    'bhavya-bhajan-sandhya': {
-      title: 'Bhavya Bhajan Sandhya',
+    'bhavya-bhajan-sandhya-in-pune': {
+      title: 'Bhavya Bhajan Sandhya in Pune',
       metaTitle: 'Bhavya Bhajan Sandhya in Pune | Grand Musical Event',
       metaDescription: 'Book Bhavya Bhajan Sandhya for large events. Famous singers, grand stage, and professional sound.',
       focusKeyword: 'bhavya bhajan sandhya pune',
@@ -3784,8 +3785,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Organizers of large community events or lavish weddings.',
       faqs: [{ question: 'Do you manage stage/lights?', answer: 'Yes, we provide turnkey event management for this.' }]
     },
-    'festival-special-chowki': {
-      title: 'Festival Special Chowki',
+    'festival-special-chowki-in-pune': {
+      title: 'Festival Special Chowki in Pune',
       metaTitle: 'Festival Special Chowki in Pune | Ganpati/Navratri',
       metaDescription: 'Book Special Chowki for Ganpati or Navratri mandals. Top performers for festival season.',
       focusKeyword: 'festival chowki pune',
@@ -3798,8 +3799,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Mandals, Societies, and Temple Committees.',
       faqs: [{ question: 'Do we need to book in advance?', answer: 'Yes, festival dates get booked months in advance.' }]
     },
-    'durga-jagran': {
-      title: 'Durga Jagran',
+    'durga-jagran-in-pune': {
+      title: 'Durga Jagran in Pune',
       metaTitle: 'Durga Jagran in Pune | Navratri Special Night',
       metaDescription: 'Book Durga Jagran. Specialized for Navratri nights. Garba Raas and Devi Bhajans.',
       focusKeyword: 'durga jagran pune',
@@ -3814,8 +3815,8 @@ export function getPujaData(slug: string) {
     },
 
     // BHAJAN & CHOWKI BATCH 3 (Community & Kirtan)
-    'navratri-kirtan': {
-      title: 'Navratri Kirtan',
+    'navratri-kirtan-in-pune': {
+      title: 'Navratri Kirtan in Pune',
       metaTitle: 'Navratri Kirtan in Pune | Garba & Bhakti',
       metaDescription: 'Book Navratri Kirtan group. Fusion of devotional kirtan and traditional Garba music.',
       focusKeyword: 'navratri kirtan pune',
@@ -3828,8 +3829,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Societies organizing Navratri events.',
       faqs: [{ question: 'Is it purely religious?', answer: 'It balances religious devotion with festive celebration.' }]
     },
-    'satyanarayan-katha': {
-      title: 'Satyanarayan Katha',
+    'satyanarayan-katha-in-pune': {
+      title: 'Satyanarayan Katha in Pune',
       metaTitle: 'Satyanarayan Katha with Music | Musical Path',
       metaDescription: 'Book Musical Satyanarayan Katha. Katha narration interspersed with melodious bhajans.',
       focusKeyword: 'musical satyanarayan katha',
@@ -3842,8 +3843,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Large family gatherings where keeping everyone engaged in the Katha is important.',
       faqs: [{ question: 'Is it the standard Katha?', answer: 'Yes, the text is standard, but delivered musically.' }]
     },
-    'bhagwat-katha-chowki': {
-      title: 'Bhagwat Katha Chowki',
+    'bhagwat-katha-chowki-in-pune': {
+      title: 'Bhagwat Katha Chowki in Pune',
       metaTitle: 'Bhagwat Katha Chowki in Pune | One Day Summary',
       metaDescription: 'Book Bhagwat Katha Chowki. A condensed musical rendition of Srimad Bhagavatam in one evening.',
       focusKeyword: 'bhagwat katha chowki',
@@ -3856,8 +3857,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Those wanting the merit of Bhagwat Katha but lacking time for a full week event.',
       faqs: [{ question: 'Does it cover everything?', answer: 'It covers the main highlights like Janm, Govardhan, and Raas.' }]
     },
-    'sundarkand-path-bhajan': {
-      title: 'Sundarkand Path with Bhajan',
+    'sundarkand-path-bhajan-in-pune': {
+      title: 'Sundarkand Path with Bhajan in Pune',
       metaTitle: 'Musical Sundarkand Path in Pune | Group Chanting',
       metaDescription: 'Book Musical Sundarkand Path. Group chanting of Ramcharitmanas Sundarkand with instruments.',
       focusKeyword: 'musical sundarkand pune',
@@ -3870,8 +3871,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Groups or families wishing to do collective prayer.',
       faqs: [{ question: 'Do you bring books?', answer: 'Yes, we provide Sundarkand books for participants to read along.' }]
     },
-    'sai-sandhya-kirtan': {
-      title: 'Sai Sandhya Kirtan',
+    'sai-sandhya-kirtan-in-pune': {
+      title: 'Sai Sandhya Kirtan in Pune',
       metaTitle: 'Sai Sandhya Kirtan | Meditative Sai Bhajans',
       metaDescription: 'Book Sai Sandhya Kirtan. Soft, meditative bhajans for peace and relaxation.',
       focusKeyword: 'sai sandhya kirtan',
@@ -3886,8 +3887,8 @@ export function getPujaData(slug: string) {
     },
 
     // BHAJAN & CHOWKI BATCH 4 (Others)
-    'mahila-satsang': {
-      title: 'Mahila Satsang',
+    'mahila-satsang-in-pune': {
+      title: 'Mahila Satsang in Pune',
       metaTitle: 'Mahila Satsang Mandali in Pune | Ladies Kirtan Group',
       metaDescription: 'Book Mahila Satsang Mandali. Ladies group for afternoon bhajans, Haldi Kumkum, and festivals.',
       focusKeyword: 'mahila satsang pune',
@@ -3900,8 +3901,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Women organizing kitty parties with a spiritual twist or traditional gatherings.',
       faqs: [{ question: 'Are gents allowed?', answer: 'Usually it is a ladies-only event, but family men can be present.' }]
     },
-    'community-kirtan': {
-      title: 'Community Kirtan',
+    'community-kirtan-in-pune': {
+      title: 'Community Kirtan in Pune',
       metaTitle: 'Community Kirtan Services | Society Events',
       metaDescription: 'Book Community Kirtan services for housing societies and clubs. Inclusive devotional singing.',
       focusKeyword: 'community kirtan pune',
@@ -3914,8 +3915,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Housing society chairmen or event committees.',
       faqs: [{ question: 'Do you cover all deities?', answer: 'Yes, we include bhajans for all major deities to be inclusive.' }]
     },
-    'vaishnav-bhajan-sandhya': {
-      title: 'Vaishnav Bhajan Sandhya',
+    'vaishnav-bhajan-sandhya-in-pune': {
+      title: 'Vaishnav Bhajan Sandhya in Pune',
       metaTitle: 'Vaishnav Bhajan Sandhya | Pushtimarg Kirtan',
       metaDescription: 'Book Vaishnav Bhajan Sandhya. Traditional Pushtimarg and Haveli Sangeet.',
       focusKeyword: 'vaishnav bhajan sandhya',
@@ -3928,8 +3929,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'Vaishnav families and Pushtimarg followers.',
       faqs: [{ question: 'Is it classical?', answer: 'Yes, it is based on classical Ragas and traditional pads.' }]
     },
-    'corporate-bhajan-event': {
-      title: 'Corporate Bhajan Event',
+    'corporate-bhajan-event-in-pune': {
+      title: 'Corporate Bhajan Event in Pune',
       metaTitle: 'Corporate Devotional Event | Office Puja Music',
       metaDescription: 'Book Corporate Bhajan Music. Soothing instrumental or soft vocal bhajans for office events.',
       focusKeyword: 'corporate bhajan event',
@@ -3942,8 +3943,8 @@ export function getPujaData(slug: string) {
       whoShouldBook: 'HR managers or business owners planning office events.',
       faqs: [{ question: 'Is it secular friendly?', answer: 'Yes, we focus on universal spiritual themes and soft music.' }]
     },
-    'family-bhajan-evening': {
-      title: 'Family Bhajan Evening',
+    'family-bhajan-evening-in-pune': {
+      title: 'Family Bhajan Evening in Pune',
       metaTitle: 'Family Bhajan Evening | Intimate Musical Puja',
       metaDescription: 'Book Family Bhajan Evening. Small scale musical setup for intimate family gatherings.',
       focusKeyword: 'family bhajan evening',
@@ -3958,7 +3959,7 @@ export function getPujaData(slug: string) {
     },
     // MARRIAGE & FAMILY BATCH 1 (Pre-Wedding & Wedding)
     'roka-ceremony-puja': {
-      title: 'Roka Ceremony Puja',
+      title: 'Roka Ceremony Puja in Pune',
       metaTitle: 'Roka Ceremony Puja in Pune | Pre-Wedding Ritual',
       metaDescription: 'Book Pandit for Roka Ceremony. Official announcement of the wedding alliance with Ganesh Puja and Milni.',
       focusKeyword: 'roka ceremony puja pune',
@@ -3973,7 +3974,7 @@ export function getPujaData(slug: string) {
     },
 
     'lagna-puja': {
-      title: 'Lagna Puja',
+      title: 'Lagna Puja in Pune',
       metaTitle: 'Lagna Puja in Pune | Auspicious Wedding Start',
       metaDescription: 'Book Lagna Puja. Writing of the Lagna Patrika and inviting the deities for the wedding.',
       focusKeyword: 'lagna puja pune',
@@ -3987,7 +3988,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'When is it done?', answer: 'Usually a few weeks or days before the wedding.' }]
     },
     'griha-pravesh-marriage': {
-      title: 'Griha Pravesh (Marriage)',
+      title: 'Griha Pravesh (Marriage) in Pune',
       metaTitle: 'Bride Griha Pravesh Puja | Welcome New Bride',
       metaDescription: 'Book Pandit for Bride Griha Pravesh. Welcoming the Lakshmi of the house after marriage.',
       focusKeyword: 'bride griha pravesh puja',
@@ -4001,7 +4002,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Is it different from new house Griha Pravesh?', answer: 'Yes, this is focused on the bride, not a new building.' }]
     },
     'kanyadaan-puja': {
-      title: 'Kanyadaan Puja',
+      title: 'Kanyadaan Puja in Pune',
       metaTitle: 'Kanyadaan Puja Services | The Greatest Gift',
       metaDescription: 'Perform Kanyadaan Puja with Vedic Vidhi. The highest form of charity a father can perform.',
       focusKeyword: 'kanyadaan puja',
@@ -4018,7 +4019,7 @@ export function getPujaData(slug: string) {
     // MARRIAGE & FAMILY BATCH 2 (Child & Sanskar - Early)
 
     'vidyarambh-puja': {
-      title: 'Vidyarambh Puja',
+      title: 'Vidyarambh Puja in Pune',
       metaTitle: 'Vidyarambh Puja in Pune | First Alphabet',
       metaDescription: 'Book Vidyarambh Puja. Initiating the child into the world of knowledge and letters.',
       focusKeyword: 'vidyarambh puja pune',
@@ -4032,7 +4033,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Which day is best?', answer: 'Vasant Panchami and Dussehra are the most auspicious.' }]
     },
     'karnavedha-sanskar': {
-      title: 'Karnavedha Sanskar',
+      title: 'Karnavedha Sanskar in Pune',
       metaTitle: 'Karnavedha Sanskar | Ear Piercing Puja',
       metaDescription: 'Book Karnavedha Puja. Vedic ear piercing ceremony for health and acupuncture benefits.',
       focusKeyword: 'karnavedha puja pune',
@@ -4048,7 +4049,7 @@ export function getPujaData(slug: string) {
 
     // MARRIAGE & FAMILY BATCH 3 (Child & Sanskar - Later)
     'janeu-sanskar': {
-      title: 'Janeu Sanskar (Upanayana)',
+      title: 'Janeu Sanskar (Upanayana) in Pune',
       metaTitle: 'Janeu Sanskar in Pune | Thread Ceremony | Moonj',
       metaDescription: 'Book Pandit for Janeu Sanskar / Moonj in Pune. Sacred Thread Ceremony initiation.',
       focusKeyword: 'janeu sanskar pune',
@@ -4062,7 +4063,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Is it a 2-day event?', answer: 'Yes, traditionally it involves Grahamak (Day 1) and Moonj (Day 2).' }]
     },
     'pregnancy-garbha-sanskar-puja': {
-      title: 'Garbha Sanskar Puja',
+      title: 'Garbha Sanskar Puja in Pune',
       metaTitle: 'Garbha Sanskar Puja | Pregnancy Blessings',
       metaDescription: 'Book Garbha Sanskar Puja. Spiritual blessings for the expectant mother and unborn child.',
       focusKeyword: 'garbha sanskar puja',
@@ -4076,7 +4077,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Can we do it online?', answer: 'Yes, listening to the mantras is also very effective.' }]
     },
     'punsvan-sanskar': {
-      title: 'Punsvan Sanskar',
+      title: 'Punsvan Sanskar in Pune',
       metaTitle: 'Punsvan Sanskar Puja | Fetus Protection',
       metaDescription: 'Book Punsvan Sanskar. Vedic ritual performed during pregnancy for the physical development of the fetus.',
       focusKeyword: 'punsvan sanskar pune',
@@ -4090,7 +4091,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Is it scientifically relevant?', answer: 'It coincides with key fetal development stages acknowledged by Ayurveda.' }]
     },
     'nishkraman-sanskar': {
-      title: 'Nishkraman Sanskar',
+      title: 'Nishkraman Sanskar in Pune',
       metaTitle: 'Nishkraman Sanskar | First Outing ceremony',
       metaDescription: 'Book Nishkraman Sanskar. Taking the baby out of the house for the first time.',
       focusKeyword: 'nishkraman sanskar pune',
@@ -4104,7 +4105,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Can we just go to a temple?', answer: 'Yes, often the first outing is to a nearby temple.' }]
     },
     'birthday-puja-vidhi': {
-      title: 'Vedic Birthday Puja',
+      title: 'Vedic Birthday Puja in Pune',
       metaTitle: 'Vedic Birthday Puja | Janamdin Vidhi',
       metaDescription: 'Book Vedic Birthday Puja. Celebrate birthdays with Ayush Homa instead of just cutting cakes.',
       focusKeyword: 'vedic birthday puja',
@@ -4120,7 +4121,7 @@ export function getPujaData(slug: string) {
 
     // MARRIAGE & FAMILY BATCH 4 (Milestones)
     'marriage-anniversary-puja': {
-      title: 'Marriage Anniversary Puja',
+      title: 'Marriage Anniversary Puja in Pune',
       metaTitle: 'Marriage Anniversary Puja | Renew Vows',
       metaDescription: 'Book Marriage Anniversary Puja. Renew your wedding vows and pray for continued togetherness.',
       focusKeyword: 'marriage anniversary puja',
@@ -4134,7 +4135,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Is it like a second wedding?', answer: 'It is a simpler version, focusing on gratitude.' }]
     },
     'shashti-purti-puja': {
-      title: 'Shashti Purti (60th Birthday)',
+      title: 'Shashti Purti (60th Birthday) in Pune',
       metaTitle: 'Shashti Purti Puja in Pune | Ugraratha Shanti',
       metaDescription: 'Book Shashti Purti Puja (60th Birthday). Ugraratha Shanti and Sashtiapthapoorthi rituals.',
       focusKeyword: 'shashti purti puja pune',
@@ -4148,7 +4149,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Is it a big event?', answer: 'Yes, usually celebrated like a wedding with family and friends.' }]
     },
     'sahasra-chandra-darshan': {
-      title: 'Sahasra Chandra Darshan (80th)',
+      title: 'Sahasra Chandra Darshan (80th) in Pune',
       metaTitle: 'Sahasra Chandra Darshan | 80th Birthday Puja',
       metaDescription: 'Book Sahasra Chandra Darshan. The ritual of seeing 1000 full moons (80 years).',
       focusKeyword: 'sahasra chandra darshan puja',
@@ -4162,7 +4163,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Why 1000 moons?', answer: 'Roughly 1 full moon/month * 12 * 80 years = 960 + interim months = 1000.' }]
     },
     'bhimaratha-shanti-70th': {
-      title: 'Bhimaratha Shanti (70th)',
+      title: 'Bhimaratha Shanti (70th) in Pune',
       metaTitle: 'Bhimaratha Shanti Puja | 70th Birthday',
       metaDescription: 'Book Bhimaratha Shanti Puja. Rituals for hitting the 70th year milestone.',
       focusKeyword: 'bhimaratha shanti puja',
@@ -4176,7 +4177,7 @@ export function getPujaData(slug: string) {
       faqs: [{ question: 'Is Havan compulsory?', answer: 'Yes, Shanti Havan is the core part of this ritual.' }]
     },
     'tulsi-vivah-family': {
-      title: 'Tulsi Vivah (Private)',
+      title: 'Tulsi Vivah (Private) in Pune',
       metaTitle: 'Tulsi Vivah Puja at Home | Tulsi Wedding',
       metaDescription: 'Book Pandit for Tulsi Vivah at home. Ceremonial marriage of Tulsi plant with Lord Shaligram.',
       focusKeyword: 'tulsi vivah home puja',

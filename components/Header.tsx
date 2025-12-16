@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from './Button'
 
 export const Header: React.FC = () => {
@@ -8,14 +9,21 @@ export const Header: React.FC = () => {
   return (
     <header className="bg-gradient-to-r from-maroon-900 via-maroon-800 to-saffron-900 shadow-lg sticky top-0 z-50 border-b border-gold-500/30">
       <nav className="container-custom">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-14 md:h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gold-500 rounded-full flex items-center justify-center border-2 border-white/20 shadow-inner">
-              <span className="text-maroon-900 font-bold text-xl">प</span>
+          <Link href="/" className="flex items-center space-x-3">
+            <div className="relative w-10 h-10 md:w-12 md:h-12">
+              <Image
+                src="/logo.png"
+                alt="PanditForPujaBooking.com Logo"
+                width={56}
+                height={56}
+                className="object-contain"
+                priority
+              />
             </div>
             <div className="flex flex-col">
-              <span className="text-lg font-serif font-bold text-white tracking-wide">
+              <span className="text-lg md:text-xl font-serif font-bold text-white tracking-wide">
                 PanditForPuja
               </span>
               <span className="text-xs text-gold-200 uppercase tracking-wider">Booking.com</span>
