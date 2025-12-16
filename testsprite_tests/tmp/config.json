@@ -1,0 +1,16 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "website_P1",
+    "projectPath": "c:\\Users\\Nayan\\website_P1",
+    "testIds": [],
+    "additionalInstruction": "",
+    "envs": {
+      "API_KEY": "sk-user-HhWgwStQmMoHajIjX6B4bqtLHipQoWINNRvWz5GB52MxV9okYGj3TZz1_P0keng20PpRvV25gn0coWQkLDKCu3tnb0K-DlNfIA2rsJFIpktNGUIGNI_ZmPipBof5JHTennM"
+    }
+  },
+  "proxy": "http://6813697f-9b68-47d6-afc9-1cde2fa1ca55:WB96yGai90dAFQzqMimgCWn2cIiZKW37@tun.testsprite.com:8080"
+}

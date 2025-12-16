@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "project": "PanditForPujaBooking.com",
+    "date": "2025-12-10",
+    "prepared_by": "Software Development Manager"
+  },
+  "product_overview": "PanditForPujaBooking.com is an online platform for booking pandit services and puja ceremonies in Pune. It features dynamic puja service pages, booking forms, and integrates SEO and analytics for enhanced user experience and business insights.",
+  "core_goals": [
+    "Provide an easy-to-use online booking experience for pandit and puja services in Pune.",
+    "Showcase various puja services with detailed templates and related suggestions.",
+    "Implement SEO best practices to enhance search engine visibility.",
+    "Enable users to access informative pages like About, FAQ, Contact, Testimonials, and Muhurat Calendar.",
+    "Provide a scalable architecture for future admin and vendor dashboards.",
+    "Ensure high performance and responsive design using Next.js and Tailwind CSS."
+  ],
+  "key_features": [
+    "Reusable design system components including Button, Header, Footer for consistent UI.",
+    "Dynamic puja service pages with SEO metadata and templates.",
+    "Booking form with validation and API route for submissions.",
+    "Analytics integration for usage tracking.",
+    "Breadcrumb navigation for easy site navigation.",
+    "Display of puja service locations and related pujas to assist user decisions.",
+    "WhatsApp contact button for quick support.",
+    "Additional informative pages for user assistance such as About, Contact, FAQ, Testimonials, and Muhurat Calendar."
+  ],
+  "user_flow_summary": [
+    "User lands on the homepage, sees hero section and services grid.",
+    "User navigates to a specific puja service page dynamically routed by puja name.",
+    "User fills out the booking form with validation ensuring correct input.",
+    "User submits booking form, triggering API endpoint for processing.",
+    "User explores related pujas and service locations for better choice.",
+    "User accesses informational pages like FAQ, Contact, and Testimonials for additional help.",
+    "User can quickly contact support via WhatsApp button integrated in the UI.",
+    "Analytics track user interactions and page visits to improve service."
+  ],
+  "validation_criteria": [
+    "Booking form validation correctly enforces required fields and formats.",
+    "Puja service pages load with correct dynamic content based on URL parameter.",
+    "SEO metadata and JSON-LD schema are present and accurate on all pages.",
+    "Reusable components render consistently across different pages and screen sizes.",
+    "API route for booking submission returns appropriate success or error response.",
+    "Analytics capture and log page views and user events.",
+    "Breadcrumb navigation provides correct hierarchical links.",
+    "WhatsApp button launches correctly and enables contact.",
+    "Additional informational pages are accessible with correct content and functional links."
+  ],
+  "code_summary": {
+    "tech_stack": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Analytics",
+        "description": "Analytics component for tracking",
+        "files": [
+          "components/Analytics.tsx"
+        ]
+      },
+      {
+        "name": "Breadcrumbs",
+        "description": "Breadcrumb navigation component",
+        "files": [
+          "components/Breadcrumbs.tsx"
+        ]
+      },
+      {
+        "name": "Button",
+        "description": "Reusable Button component",
+        "files": [
+          "components/Button.tsx"
+        ]
+      },
+      {
+        "name": "Footer",
+        "description": "Site footer component",
+        "files": [
+          "components/Footer.tsx"
+        ]
+      },
+      {
+        "name": "Header",
+        "description": "Site header component",
+        "files": [
+          "components/Header.tsx"
+        ]
+      },
+      {
+        "name": "PaymentButton",
+        "description": "Payment button component",
+        "files": [
+          "components/PaymentButton.tsx"
+        ]
+      },
+      {
+        "name": "PujaServiceLocations",
+        "description": "Component to display puja service locations",
+        "files": [
+          "components/PujaServiceLocations.tsx"
+        ]
+      },
+      {
+        "name": "RelatedPujas",
+        "description": "Component to show related pujas",
+        "files": [
+          "components/RelatedPujas.tsx"
+        ]
+      },
+      {
+        "name": "SEOHead",
+        "description": "SEO Head component",
+        "files": [
+          "components/SEOHead.tsx"
+        ]
+      },
+      {
+        "name": "WhatsAppButton",
+        "description": "WhatsApp contact button",
+        "files": [
+          "components/WhatsAppButton.tsx"
+        ]
+      },
+      {
+        "name": "Pages",
+        "description": "Main application pages",
+        "files": [
+          "pages/index.tsx",
+          "pages/about.tsx",
+          "pages/contact.tsx",
+          "pages/faq.tsx",
+          "pages/muhurat-calendar.tsx",
+          "pages/testimonials.tsx"
+        ]
+      }
+    ]
+  }
+}

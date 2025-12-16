@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
             <div className="relative w-10 h-10 md:w-12 md:h-12">
               <Image
                 src="/logo.png"
-                alt="PanditForPujaBooking.com Logo"
+                alt="Pandit for Puja in Pune – Vedic Puja & Astrology Services"
                 width={56}
                 height={56}
                 className="object-contain"
@@ -53,7 +53,7 @@ export const Header: React.FC = () => {
             <a href="tel:+918446272142" className="text-gold-400 hover:text-gold-300 font-bold whitespace-nowrap">
               📞 +91-8446272142
             </a>
-            <Button variant="primary" size="md" href="/puja-services" asLink className="shadow-gold-900/20">
+            <Button variant="primary" size="md" href="/booking" asLink className="shadow-gold-900/20">
               Book Now
             </Button>
           </div>
@@ -98,7 +98,7 @@ export const Header: React.FC = () => {
             <a href="tel:+918446272142" className="block text-gold-400 hover:text-gold-300 font-bold py-2">
               📞 +91-8446272142
             </a>
-            <Button variant="primary" size="md" className="w-full" href="/puja-services" asLink>
+            <Button variant="primary" size="md" className="w-full" href="/booking" asLink>
               Book Now
             </Button>
           </div>

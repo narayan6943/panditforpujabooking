@@ -436,11 +436,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const existingPages = new Set(filenames.map((file: string) => file.replace(/\.tsx$/, '')))
 
   // Filter out pujas that already have a static page
-  const paths = allPujaServices
-    .filter(puja => !existingPages.has(puja))
-    .map((puja) => ({
+  const paths = [
+    ...allPujaServices
+      .filter(puja => !existingPages.has(puja))
+      .map((puja) => ({
+        params: { 'puja-name': puja },
+      })),
+    // Add paths for the locally defined detailed pujas
+    ...Object.keys(pujaData).map((puja) => ({
       params: { 'puja-name': puja },
     }))
+  ]
 
   return {
     paths,

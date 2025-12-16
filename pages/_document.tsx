@@ -19,13 +19,26 @@ export default function Document() {
                 <meta name="mobile-web-app-capable" content="yes" />
 
                 {/* Icons */}
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="apple-touch-icon" href="/logo.png" />
-                <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
-                <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512.png" />
+                <link rel="icon" href="/favicon.ico" sizes="any" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                 <link rel="manifest" href="/manifest.json" />
 
                 {/* Fonts can be added here if not using next/font */}
+
+                {/* Google Analytics */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGCW57PWZ2"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-QGCW57PWZ2');
+            `,
+                    }}
+                />
             </Head>
             <body>
                 <Main />

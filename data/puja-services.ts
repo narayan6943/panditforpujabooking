@@ -44,19 +44,7 @@ export const allPujaServices = [
   'wealth-prosperity-shanti-in-pune',
   'ancestral-peace-shanti-in-pune',
 
-  // FESTIVAL PUJAS (Batch 1)
-  'ganesh-chaturthi-puja-in-pune',
-  'diwali-lakshmi-puja-in-pune',
-  'gudi-padwa-puja-in-pune',
-  'dussehra-puja-in-pune',
-  'tulsi-vivah-puja-in-pune',
-
-  // FESTIVAL PUJAS (Batch 2)
-  'makar-sankranti-puja-in-pune',
-  'holi-puja-in-pune',
-  'rishi-panchami-puja-in-pune',
-  'narak-chaturdashi-puja-in-pune',
-  'bhai-dooj-puja-in-pune',
+  // FESTIVAL PUJAS (Batch 1 & 2 moved to main Festival section)
 
   // HAVAN (20)
   'grah-shanti-havan-in-pune',
@@ -4243,6 +4231,46 @@ export function getPujaData(slug: string) {
     data.image = generateDefaultPuja(slug).image
   }
 
-  return data
-}
+  // Ensure all required fields for the detail page exist
+  // This prevents crashes when invalid/partial data is returned for a slug
+  const title = data.title || slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
 
+  const detailedData = {
+    ...data,
+    metaTitle: data.metaTitle || `${title} in Pune | Book Expert Pandit Online`,
+    metaDescription: data.metaDescription || `Book verified pandit for ${title} in Pune. Same-day booking. Transparent pricing. Authentic Vedic rituals.`,
+    focusKeyword: data.focusKeyword || `${slug.replace(/-/g, ' ')} pune`,
+    h1: data.h1 || `${title}`,
+    intro: data.intro || `${title} is a sacred Vedic ritual performed to invoke divine blessings. Our verified pandits in Pune perform this puja following traditional Vidhi with complete devotion.`,
+    ritualSteps: data.ritualSteps || [
+      'Ganesh Pujan',
+      'Kalash Sthapana',
+      'Sankalp',
+      'Main Puja Rituals',
+      'Havan/Homa',
+      'Aarti and Prasad'
+    ],
+    benefits: data.benefits || [
+      'Brings peace and prosperity',
+      'Removes obstacles',
+      'Ensures divine blessings',
+      'Protects from negative energies',
+      'Fulfills wishes'
+    ],
+    cost: data.price || data.cost || '₹2,500', // normalize price/cost
+    duration: data.duration || '2-3 Hours',
+    whoShouldBook: data.whoShouldBook || 'Anyone seeking divine blessings and spiritual growth.',
+    faqs: data.faqs || [
+      {
+        question: `When should ${title} be performed?`,
+        answer: 'It can be performed on any auspicious day or muhurat. Our pandit will guide you.'
+      },
+      {
+        question: 'What items are required?',
+        answer: 'We will provide the complete list of samagri after booking.'
+      }
+    ]
+  }
+
+  return detailedData
+}

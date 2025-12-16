@@ -1,0 +1,92 @@
+{
+    "tech_stack": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "TailwindCSS"
+    ],
+    "features": [
+        {
+            "name": "Analytics",
+            "description": "Analytics component for tracking",
+            "files": [
+                "components/Analytics.tsx"
+            ]
+        },
+        {
+            "name": "Breadcrumbs",
+            "description": "Breadcrumb navigation component",
+            "files": [
+                "components/Breadcrumbs.tsx"
+            ]
+        },
+        {
+            "name": "Button",
+            "description": "Reusable Button component",
+            "files": [
+                "components/Button.tsx"
+            ]
+        },
+        {
+            "name": "Footer",
+            "description": "Site footer component",
+            "files": [
+                "components/Footer.tsx"
+            ]
+        },
+        {
+            "name": "Header",
+            "description": "Site header component",
+            "files": [
+                "components/Header.tsx"
+            ]
+        },
+        {
+            "name": "PaymentButton",
+            "description": "Payment button component",
+            "files": [
+                "components/PaymentButton.tsx"
+            ]
+        },
+        {
+            "name": "PujaServiceLocations",
+            "description": "Component to display puja service locations",
+            "files": [
+                "components/PujaServiceLocations.tsx"
+            ]
+        },
+        {
+            "name": "RelatedPujas",
+            "description": "Component to show related pujas",
+            "files": [
+                "components/RelatedPujas.tsx"
+            ]
+        },
+        {
+            "name": "SEOHead",
+            "description": "SEO Head component",
+            "files": [
+                "components/SEOHead.tsx"
+            ]
+        },
+        {
+            "name": "WhatsAppButton",
+            "description": "WhatsApp contact button",
+            "files": [
+                "components/WhatsAppButton.tsx"
+            ]
+        },
+        {
+            "name": "Pages",
+            "description": "Main application pages",
+            "files": [
+                "pages/index.tsx",
+                "pages/about.tsx",
+                "pages/contact.tsx",
+                "pages/faq.tsx",
+                "pages/muhurat-calendar.tsx",
+                "pages/testimonials.tsx"
+            ]
+        }
+    ]
+}
